@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Bukkit#1</title>
+    <url>/2021/08/03/Bukkit-1/</url>
+    <content><![CDATA[<h1 id="Minecraft-插件开发第一期"><a href="#Minecraft-插件开发第一期" class="headerlink" title="Minecraft 插件开发第一期"></a>Minecraft 插件开发第一期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
+
+<h2 id="本期分为五个步骤"><a href="#本期分为五个步骤" class="headerlink" title="本期分为五个步骤:"></a>本期分为五个步骤:</h2><pre><code>1. 安装JDK (推荐版本8)
+2. 修改JAVA路径
+3. 安装编程工具IDEA
+4. 安装完成IDEA之后下载插件
+5. 创建一个新的项目 
+</code></pre>
+<hr>
+<h3 id="第一步-下载JDK"><a href="#第一步-下载JDK" class="headerlink" title="第一步 下载JDK"></a>第一步 下载JDK</h3><ul>
+<li><a href="https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot">推荐openJDK</a></li>
+<li>选择JDK8版本</li>
+<li>进行下载并安装</li>
+</ul>
+<hr>
+<h3 id="第二步-更改JAVA路径"><a href="#第二步-更改JAVA路径" class="headerlink" title="第二步 更改JAVA路径"></a>第二步 更改JAVA路径</h3><ul>
+<li>右键我的电脑属性 -&gt; 高级系统设置 -&gt; 高级 -&gt; 环境变量 </li>
+<li>然后在环境变量的系统变量内新建一个 JAVA_HOME</li>
+<li>编辑 JAVA_HOME 放入安装JDK的位置</li>
+<li>设置完成关闭,在系统变量内找到Path编辑 增加 %JAVA_HOME%\bin 放到第一个位置</li>
+<li>接着保存,打开 CMD 输入 java -version 如果显示版本就已经完成了</li>
+</ul>
+<hr>
+<h3 id="第三步-下载IDEA"><a href="#第三步-下载IDEA" class="headerlink" title="第三步 下载IDEA"></a>第三步 下载IDEA</h3><ul>
+<li>IDEA官网 （百度搜索IDEA进入官网）链接放到评论区</li>
+<li>点击 Download 下载 右边社区版(免费) 有条件的可以去购买付费版</li>
+<li>下载完安装</li>
+<li>选择安装路径和设置</li>
+</ul>
+<hr>
+<h3 id="第四步-打开IDEA"><a href="#第四步-打开IDEA" class="headerlink" title="第四步 打开IDEA"></a>第四步 打开IDEA</h3><ul>
+<li>进入 Setting 设置内有个 Plugins (插件)</li>
+<li>搜索 Chinese 下载中文语言</li>
+<li>再搜索 Minecraft Development 下载安装</li>
+</ul>
+<hr>
+<h3 id="第五步-创建一个新项目"><a href="#第五步-创建一个新项目" class="headerlink" title="第五步 创建一个新项目"></a>第五步 创建一个新项目</h3><ul>
+<li>选择左侧的 Minecraft 并再右上角添加JDK的路径</li>
+<li>选择 spigot 插件进行下一步</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Bukkit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/08/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
