@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Bukkit#2</title>
+    <url>/2021/08/03/Bukkit-2/</url>
+    <content><![CDATA[<h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
+
+<h2 id="本期分为一个步骤"><a href="#本期分为一个步骤" class="headerlink" title="本期分为一个步骤:"></a>本期分为一个步骤:</h2><pre><code>1.如何创建一个方法
+</code></pre>
+]]></content>
+      <tags>
+        <tag>java</tag>
+        <tag>Minecraft</tag>
+        <tag>Bukkit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Bukkit#1</title>
     <url>/2021/08/03/Bukkit-1/</url>
-    <content><![CDATA[<h1 id="Minecraft-插件开发第一期"><a href="#Minecraft-插件开发第一期" class="headerlink" title="Minecraft 插件开发第一期"></a>Minecraft 插件开发第一期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
-
+    <content><![CDATA[<blockquote>
+<h1 id="插件开发第一期"><a href="#插件开发第一期" class="headerlink" title="插件开发第一期"></a>插件开发第一期</h1></blockquote>
+<span id="more"></span>
+<blockquote>
+<h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2></blockquote>
 <h2 id="本期分为五个步骤"><a href="#本期分为五个步骤" class="headerlink" title="本期分为五个步骤:"></a>本期分为五个步骤:</h2><pre><code>1. 安装JDK (推荐版本8)
 2. 修改JAVA路径
 3. 安装编程工具IDEA
@@ -12,8 +29,7 @@
 5. 创建一个新的项目 
 </code></pre>
 <hr>
-<h3 id="第一步-下载JDK"><a href="#第一步-下载JDK" class="headerlink" title="第一步 下载JDK"></a>第一步 下载JDK</h3><ul>
-<li><a href="https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot">推荐openJDK</a></li>
+<h3 id="第一步-下载JDK-点击前往"><a href="#第一步-下载JDK-点击前往" class="headerlink" title="第一步 下载JDK [点击前往]"></a>第一步 下载JDK <a href="https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot">[点击前往]</a></h3><ul>
 <li>选择JDK8版本</li>
 <li>进行下载并安装</li>
 </ul>
@@ -26,8 +42,8 @@
 <li>接着保存,打开 CMD 输入 java -version 如果显示版本就已经完成了</li>
 </ul>
 <hr>
-<h3 id="第三步-下载IDEA"><a href="#第三步-下载IDEA" class="headerlink" title="第三步 下载IDEA"></a>第三步 下载IDEA</h3><ul>
-<li>IDEA官网 （百度搜索IDEA进入官网）链接放到评论区</li>
+<h3 id="第三步-下载IDEA-点击前往"><a href="#第三步-下载IDEA-点击前往" class="headerlink" title="第三步 下载IDEA [点击前往]"></a>第三步 下载IDEA <a href="https://www.jetbrains.com/idea/">[点击前往]</a></h3><ul>
+<li>IDEA官网 (百度搜索IDEA进入官网)</li>
 <li>点击 Download 下载 右边社区版(免费) 有条件的可以去购买付费版</li>
 <li>下载完安装</li>
 <li>选择安装路径和设置</li>
@@ -41,22 +57,14 @@
 <hr>
 <h3 id="第五步-创建一个新项目"><a href="#第五步-创建一个新项目" class="headerlink" title="第五步 创建一个新项目"></a>第五步 创建一个新项目</h3><ul>
 <li>选择左侧的 Minecraft 并再右上角添加JDK的路径</li>
-<li>选择 spigot 插件进行下一步</li>
+<li>选择 spigot 插件进行下一步<br><img src="/images/1.png" alt="1"><br><img src="/images/2.png" alt="2"><br><img src="/images/3.png" alt="3"></li>
+<li>完成之后将会创建一个项目</li>
+<li>第一次使用需要等待右下角下载完成<br><img src="/images/%E4%B8%BB%E7%B1%BB.png" alt="主类"></li>
+<li>左上角 src -&gt; main -&gt; java -&gt; 包名 -&gt; 主类</li>
+<li>现在已经成功创建完一个项目</li>
+<li><strong>我会在下一期讲解如何去写一个mc的事件并讲解各个部分</strong></li>
 </ul>
-]]></content>
-      <tags>
-        <tag>java</tag>
-        <tag>Minecraft</tag>
-        <tag>Bukkit</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Bukkit#2</title>
-    <url>/2021/08/03/Bukkit-2/</url>
-    <content><![CDATA[<h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
-
-<h2 id="本期分为一个步骤"><a href="#本期分为一个步骤" class="headerlink" title="本期分为一个步骤:"></a>本期分为一个步骤:</h2><pre><code>1.如何创建一个方法
-</code></pre>
+<hr>
 ]]></content>
       <tags>
         <tag>java</tag>
