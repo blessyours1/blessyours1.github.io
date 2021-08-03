@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Bukkit#2</title>
-    <url>/2021/08/03/Bukkit-2/</url>
-    <content><![CDATA[<h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
-
-<h2 id="本期分为一个步骤"><a href="#本期分为一个步骤" class="headerlink" title="本期分为一个步骤:"></a>本期分为一个步骤:</h2><pre><code>1.如何创建一个方法
-</code></pre>
-]]></content>
-      <tags>
-        <tag>java</tag>
-        <tag>Minecraft</tag>
-        <tag>Bukkit</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Bukkit#1</title>
     <url>/2021/08/03/Bukkit-1/</url>
     <content><![CDATA[<h1 id="Minecraft-插件开发第一期"><a href="#Minecraft-插件开发第一期" class="headerlink" title="Minecraft 插件开发第一期"></a>Minecraft 插件开发第一期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
@@ -57,6 +43,20 @@
 <li>选择左侧的 Minecraft 并再右上角添加JDK的路径</li>
 <li>选择 spigot 插件进行下一步</li>
 </ul>
+]]></content>
+      <tags>
+        <tag>java</tag>
+        <tag>Minecraft</tag>
+        <tag>Bukkit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bukkit#2</title>
+    <url>/2021/08/03/Bukkit-2/</url>
+    <content><![CDATA[<h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
+
+<h2 id="本期分为一个步骤"><a href="#本期分为一个步骤" class="headerlink" title="本期分为一个步骤:"></a>本期分为一个步骤:</h2><pre><code>1.如何创建一个方法
+</code></pre>
 ]]></content>
       <tags>
         <tag>java</tag>
