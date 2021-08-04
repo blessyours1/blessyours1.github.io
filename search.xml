@@ -53,7 +53,8 @@
 <hr>
 ]]></content>
       <categories>
-        <category>主题</category>
+        <category>Minecraft</category>
+        <category>Bukkit</category>
       </categories>
       <tags>
         <tag>java</tag>
@@ -64,12 +65,86 @@
   <entry>
     <title>Bukkit#2</title>
     <url>/2021/08/03/Bukkit-2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
-
-<h2 id="本期分为一个步骤"><a href="#本期分为一个步骤" class="headerlink" title="本期分为一个步骤:"></a>本期分为一个步骤:</h2><pre><code>1.如何创建一个方法
-2.沈炎没鸡鸡
-</code></pre>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1></blockquote>
+<span id="more"></span>
+<blockquote>
+<h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2></blockquote>
+<blockquote>
+<h2 id="本期分为二个步骤"><a href="#本期分为二个步骤" class="headerlink" title="本期分为二个步骤:"></a>本期分为二个步骤:</h2></blockquote>
+<ul>
+<li>了解主类内容</li>
+<li>创建一个事件并使用</li>
+</ul>
+<blockquote>
+<h3 id="了解主类内容"><a href="#了解主类内容" class="headerlink" title="了解主类内容"></a>了解主类内容</h3></blockquote>
+<ul>
+<li>继承上一次的步骤创建完项目之后</li>
+<li>我们需要打开 左上角 src -&gt; main -&gt; java -&gt; 包名 -&gt; 主类 </li>
+<li>主类是你创建的名称</li>
+<li>打开我们的主类可以看到</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() &#123; // 插件开启时执行</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@Override</span><br><span class="line">public void onDisable() &#123; // 插件关闭时执行</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>首先我将教大家可以更加醒目的从控制台上看到自己的插件启用和关闭</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() &#123;</span><br><span class="line">getLogger().info(&quot;插件已经启用&quot;); // 开启时执行的信息</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@Override</span><br><span class="line">public void onDisable() &#123;</span><br><span class="line">getLogger().info(&quot;插件已经卸载&quot;); // 关闭时执行的信息</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>非常的简单,这样就能自定义提示信息,不过这样还有点不明显,我们需要让字变成彩色</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() &#123;</span><br><span class="line">getLogger().info(ChatColor.AQUA + &quot;插件已经启用&quot;); // 开启时执行的信息是青蓝色的</span><br><span class="line">getLogger().info(&quot;§b插件已经启用&quot;); // 开启时执行的信息是青蓝色的</span><br><span class="line">// 当然 你不能写两个上去 只能选一种方式</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@Override</span><br><span class="line">public void onDisable() &#123;</span><br><span class="line">getLogger().info(ChatColor.RED + &quot;插件已经卸载&quot;); // 关闭时执行的信息是红色的</span><br><span class="line">getLogger().info(&quot;§4插件已经卸载&quot;); // 关闭时执行的信息是红色的</span><br><span class="line">// 当然 你不能写两个上去 只能选一种方式</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在前面加上 ChatColor.AQUA 或者 使用 § 颜色符号 都可以使后面的字体变换颜色</li>
+<li>如果想要使用 &amp; 符号 代替 § 符号也是可以的,我会在后面的教程告诉大家<h3 id="创建事件"><a href="#创建事件" class="headerlink" title="创建事件"></a>创建事件</h3></li>
+<li>事件是某某某执行或者触发了一个事情,然后触发一系列的事件(需要我们玩家自己写)</li>
+<li>接下来我们需要再创建一个 java类 存放我们的事件 (event)</li>
+<li>右键 我们主类上面的包名称 新建一个java类 名称取: PluginEvent(只要不重复名称随便取)<br><img src="/images/%E6%96%B0%E5%BB%BA.png" alt="新建"></li>
+<li>完成之后 我们需要让这个类 接上事件 Listener (事件必须加)</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">public class PluginEvent implements Listener &#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>接下来创建一个事件</li>
+<li>我拿阻止苦力怕爆炸来作为演示</li>
+<li>首先我们需要知道苦力怕爆炸这个事件叫什么</li>
+<li>我在这里分享一个事件网址 <a href="https://hub.spigotmc.org/javadocs/spigot/index.html">点击前往</a></li>
+<li>我在下面找到了 org.bukkit.event.entity 这是调用实体的一些事件</li>
+<li>里面就有实体爆炸事件 EntityExplodeEvent</li>
+<li>我们将 EntityExplodeEvent 放入我们的类里</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">public class PluginEvent implements Listener &#123;</span><br><span class="line"></span><br><span class="line">    @EventHandler // 千万不要漏写 不然事件不执行</span><br><span class="line">    public static void EEE(EntityExplodeEvent event)&#123; // 这是一个实体爆炸的事件 需要导入我们的事件</span><br><span class="line">        // 填写我们的内容</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>接下来我们需要在事件内部写上我们的想法</li>
+<li>首先需要是苦力怕,然后让它爆炸之后返回</li>
+<li>这样就不会炸毁方块了</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@EventHandler // 千万不要漏写 不然事件不执行</span><br><span class="line">public static void EEE(EntityExplodeEvent event)&#123; // 思路: 如果是苦力怕返回爆炸之前</span><br><span class="line">    if (event.getEntityType() == EntityType.CREEPER)&#123; // 如果我们的生物类型是苦力怕</span><br><span class="line">        event.setCancelled(true); // true确定返回</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>接下来我们需要返回主类</li>
+<li>在onEnable内加入 getServer().getPluginManager().registerEvents(new PluginEvent(),this);</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() &#123;</span><br><span class="line">    getLogger().info(ChatColor.AQUA + &quot;插件已经启用&quot;); // 开启时执行的信息是青蓝色的</span><br><span class="line">    getServer().getPluginManager().registerEvents(new PluginEvent(),this); // 注册一个事件类PluginEvent 位置是事件类的名称</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>然后我们点击右上角的绿色箭头运行</li>
+<li>idea会将我们的插件放入左侧 target文件夹里<br><img src="/images/target.png" alt="target"></li>
+<li>右键我们的插件 打开于Explorer 自动开启所在位置</li>
+<li>然后将插件拖入服务器插件文件夹并启动服务器</li>
+<li>开启之后会显示我们刚才写的<br><img src="/images/onEnable.png" alt="onEnable"></li>
+<li>当然关闭也是会显示的</li>
+<li>接下来进服务器苦力怕它就不会爆炸了</li>
+</ul>
+<blockquote>
+<h3 id="本期事件的教程到此结束-大家可以试试别的事件"><a href="#本期事件的教程到此结束-大家可以试试别的事件" class="headerlink" title="本期事件的教程到此结束 大家可以试试别的事件"></a>本期事件的教程到此结束 大家可以试试别的事件</h3></blockquote>
+<ul>
+<li><strong>我会再出更多教程</strong></li>
+</ul>
+<blockquote>
+<h3 id="下一期教大家如何写一个指令并执行"><a href="#下一期教大家如何写一个指令并执行" class="headerlink" title="下一期教大家如何写一个指令并执行"></a>下一期教大家如何写一个指令并执行</h3></blockquote>
+<hr>
 ]]></content>
+      <categories>
+        <category>Minecraft</category>
+        <category>Bukkit</category>
+      </categories>
       <tags>
         <tag>java</tag>
         <tag>Minecraft</tag>
