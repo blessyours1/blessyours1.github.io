@@ -62,6 +62,21 @@
       </tags>
   </entry>
   <entry>
+    <title>Bukkit#2</title>
+    <url>/2021/08/03/Bukkit-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
+
+<h2 id="本期分为一个步骤"><a href="#本期分为一个步骤" class="headerlink" title="本期分为一个步骤:"></a>本期分为一个步骤:</h2><pre><code>1.如何创建一个方法
+2.沈炎没鸡鸡
+</code></pre>
+]]></content>
+      <tags>
+        <tag>java</tag>
+        <tag>Minecraft</tag>
+        <tag>Bukkit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NexT美化</title>
     <url>/2021/08/03/NexT%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -100,21 +115,6 @@
         <tag>NexT</tag>
         <tag>主题</tag>
         <tag>美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Bukkit#2</title>
-    <url>/2021/08/03/Bukkit-2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Minecraft-插件开发第二期"><a href="#Minecraft-插件开发第二期" class="headerlink" title="Minecraft 插件开发第二期"></a>Minecraft 插件开发第二期</h1><h2 id="Bilibili专栏"><a href="#Bilibili专栏" class="headerlink" title="Bilibili专栏"></a><a href="https://www.bilibili.com/read/cv12317336">Bilibili专栏</a></h2><span id="more"></span>
-
-<h2 id="本期分为一个步骤"><a href="#本期分为一个步骤" class="headerlink" title="本期分为一个步骤:"></a>本期分为一个步骤:</h2><pre><code>1.如何创建一个方法
-2.沈炎没鸡鸡
-</code></pre>
-]]></content>
-      <tags>
-        <tag>java</tag>
-        <tag>Minecraft</tag>
-        <tag>Bukkit</tag>
       </tags>
   </entry>
   <entry>
