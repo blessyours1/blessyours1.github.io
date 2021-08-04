@@ -1276,7 +1276,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e85c66;
+  background: #ffffc1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1677,6 +1677,25 @@ pre .javascript .function {
   .back-to-top {
     left: 20px;
     opacity: 0.8;
+  }
+}
+@media screen and (min-width: 900px) {
+  .back-to-top {
+    right: 60px;
+    width: 70px;
+    height: 900px;
+    top: -900px;
+    bottom: unset;
+    transition: all 0.5s ease-in-out;
+    background: url("/images/scroll.png");
+    position: fixed;
+  }
+  .back-to-top > i {
+    display: none;
+  }
+  .back-to-top.back-to-top-on {
+    bottom: unset;
+    top: calc(100vh - 900px - 200px);
   }
 }
 .reading-progress-bar {
@@ -2482,11 +2501,11 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
   position: absolute;
   top: 0;
-  width: 240px;
+  width: 260px;
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 240px;
+    width: 260px;
   }
 }
 @media (max-width: 991px) {
@@ -2513,7 +2532,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   box-sizing: border-box;
   padding: 40px;
-  width: calc(100% - 252px);
+  width: calc(100% - 272px);
 }
 @media (max-width: 991px) {
   .content-wrap {
@@ -2655,7 +2674,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: none;
   margin-top: 100%;
   position: static;
-  width: 240px;
+  width: 260px;
 }
 @media (max-width: 991px) {
   .sidebar {
@@ -2671,7 +2690,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   box-sizing: border-box;
   color: var(--text-color);
-  width: 240px;
+  width: 260px;
   opacity: 0;
 }
 .sidebar-inner.affix {
@@ -2891,127 +2910,27 @@ ul.breadcrumb li + li:last-child {
     margin: 8px 0 0;
   }
 }
-#CloudCalendar {
-/*全句背景色*/
-  background-color: #eee;
+.post-button .btn {
+  color: #555 !important;
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 15px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.35);
+  border: none !important;
+  transition-property: unset;
+  padding: 0px 15px;
 }
-#CloudCalendar a {
-  text-decoration: none;
+.post-button .btn:hover {
+  color: #fff !important;
+  border-radius: 3px;
+  font-size: 15px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.35);
+  background-image: linear-gradient(90deg, #f06 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #f06 100%);
 }
-.cal-head {
-  position: relative;
-  height: 20px;
-  padding: 8px 6px 2px 6px;
-}
-.cal-prev,
-.cal-next {
-  position: absolute;
-  top: 9px;
-  width: 9px;
-  height: 10px;
-  padding: 3px 4px;
-  border: 1px solid transparent;
-  color: #fff;
-  outline: 0;
-}
-/*上下页箭头*/
-.cal-prev {
-  left: 8px;
-}
-.cal-prev:before {
-  border-right: 9px solid #333;
-}
-.cal-next {
-  right: 8px;
-}
-.cal-next:before {
-  border-left: 9px solid #333;
-}
-.cal-prev:before,
-.cal-next:before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-}
-.cal-title {
-  width: 120px;
-  margin: 0 auto;
-  color: #808080;
-  font: bold 14px/18px Arial;
-  text-align: center;
-}
-.cal-title a {
-  border: 1px solid transparent;
-/*年份颜色*/
-  color: color-link;
-}
-.cal,
-.cal th,
-.cal td {
-  border: 1px solid #eee;
-}
-.cal {
-  border-collapse: separate;
-  border-spacing: 0;
-  border-width: 1px 0 0 1px;
-  table-layout: fixed;
-  width: 100%;
-  margin: 0;
-}
-.cal th {
-/*星期颜色*/
-  color: color-link;
-  border-width: 0 1px 1px 0;
-  font-weight: 700;
-}
-.cal td {
-  border-width: 0 1px 1px 0;
-}
-.cal tbody a {
-/*有提交的天*/
-  background-color: #baf786;
-  color: #fff;
-  display: block;
-  border-bottom: 0px solid transparent;
-  font-weight: 700;
-}
-.cal tbody .cal-today {
-/*今天*/
-  color: #a722ff;
-  font-weight: bold;
-}
-.cal .cal-gray {
-/*没提交的天*/
-  color: #808080;
-}
-.cal th,
-.cal td {
-  font-weight: normal;
-  line-height: 2.5625;
-  padding: 0;
-  text-align: center;
-}
-.cal .cal-foot {
-/*底栏箭头切换月*/
-  color: color-link;
-}
-.cal-title a:hover,
-.cal-prev:hover,
-.cal-next:hover,
-.cal .cal-foot:hover,
-.cal .cal-foot:focus {
-/*底栏箭头切换月-鼠标覆盖*/
-  background-color: color-link;
-  color: #fff;
-  cursor: pointer;
-}
-/*鼠标覆盖后的颜色*/
-.cal tbody a:hover,
-.cal tbody a:focus {
-  background-color: #68dc6e;
-  color: #fff;
-  cursor: pointer;
+.post {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
