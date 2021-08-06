@@ -164,6 +164,26 @@
       </tags>
   </entry>
   <entry>
+    <title>java记录 🌈</title>
+    <url>/2021/08/06/java%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1></blockquote>
+<span id="more"></span>
+
+<blockquote>
+<h2 id="随机数值方法"><a href="#随机数值方法" class="headerlink" title="随机数值方法:"></a>随机数值方法:</h2></blockquote>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">public static int getLuck() {</span><br><span class="line">    Random r = new Random();</span><br><span class="line">        return r.nextInt(); // 值</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">substring 字符串中的位置</span><br><span class="line">indexOf 字符串首次出现的位置</span><br></pre></td></tr></tbody></table></figure>
+
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NexT美化 ✨</title>
     <url>/2021/08/03/NexT%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -202,25 +222,6 @@
         <tag>NexT</tag>
         <tag>主题</tag>
         <tag>美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>java记录 🌈</title>
-    <url>/2021/08/06/java%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1></blockquote>
-<span id="more"></span>
-
-<blockquote>
-<h2 id="随机数值方法"><a href="#随机数值方法" class="headerlink" title="随机数值方法:"></a>随机数值方法:</h2></blockquote>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">public static int getLuck() {</span><br><span class="line">    Random r = new Random();</span><br><span class="line">        return r.nextInt(); // 值</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
       </tags>
   </entry>
   <entry>
