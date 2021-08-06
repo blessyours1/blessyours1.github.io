@@ -1276,7 +1276,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #24459c;
+  background: #e31120;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2501,11 +2501,11 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
   position: absolute;
   top: 0;
-  width: 260px;
+  width: 300px;
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 260px;
+    width: 300px;
   }
 }
 @media (max-width: 991px) {
@@ -2532,7 +2532,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   box-sizing: border-box;
   padding: 40px;
-  width: calc(100% - 272px);
+  width: calc(100% - 312px);
 }
 @media (max-width: 991px) {
   .content-wrap {
@@ -2674,7 +2674,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: none;
   margin-top: 100%;
   position: static;
-  width: 260px;
+  width: 300px;
 }
 @media (max-width: 991px) {
   .sidebar {
@@ -2690,7 +2690,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   box-sizing: border-box;
   color: var(--text-color);
-  width: 260px;
+  width: 300px;
   opacity: 0;
 }
 .sidebar-inner.affix {
@@ -2933,4 +2933,63 @@ ul.breadcrumb li + li:last-child {
   padding: 15px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+img#github-emoji {
+  margin: 0px;
+  padding: 0px;
+  display: inline !important;
+  vertical-align: text-bottom;
+  border: none;
+  cursor: text;
+  box-shadow: none;
+}
+/* 文章超链接样式（为emoji特设） */
+.post-body a {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post-body a:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+/* 标签云页面超链接样式（为emoji特设） */
+.tag-cloud a {
+  color: #5073b8;
+  border-bottom: 1px solid #5073b8;
+  text-decoration: none;
+}
+.tag-cloud a:hover {
+  color: #a166ab;
+  border-bottom: 1px solid #a166ab;
+  text-decoration: none;
+}
+/* 文章元数据中categories的样式（为emoji特设） */
+a.categories {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+a.categories:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+/* tabs标签（为emoji特设） */
+.post-body .tabs ul.nav-tabs li.tab a {
+  text-decoration: none;
+}
+/* 图片下方标题设置（为emoji特设） */
+a.fancybox {
+  text-decoration: none !important;
+}
+/* 按钮样式（为emoji特设） */
+.btn {
+  color: #fff !important;
+  text-decoration: none !important;
+  border: 2px solid #222 !important;
+}
+.btn:hover {
+  color: #222 !important;
 }
