@@ -41,15 +41,19 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
-<meta property="og:url" content="http://example.com/categories/java/Minecraft/Bukkit/index.html">
+  <meta name="description" content="Jsoup 爬图&amp;内容">
+<meta property="og:type" content="article">
+<meta property="og:title" content="爬图&amp;内容">
+<meta property="og:url" content="http://example.com/2021/08/11/%E7%88%AC%E5%9B%BE/index.html">
 <meta property="og:site_name" content="Blog">
+<meta property="og:description" content="Jsoup 爬图&amp;内容">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-08-11T09:45:48.000Z">
+<meta property="article:modified_time" content="2021-08-11T10:04:33.759Z">
 <meta property="article:author" content="CanYing">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/categories/java/Minecraft/Bukkit/">
+<link rel="canonical" href="http://example.com/2021/08/11/%E7%88%AC%E5%9B%BE/">
 
 
 <script id="page-configurations">
@@ -57,12 +61,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: Bukkit | Blog</title>
+  <title>爬图&内容 | Blog</title>
   
 
 
@@ -248,77 +252,171 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
+
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/11/%E7%88%AC%E5%9B%BE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="CanYing">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          爬图&内容
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-08-11 17:45:48 / 修改时间：18:04:33" itemprop="dateCreated datePublished" datetime="2021-08-11T17:45:48+08:00">2021-08-11</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Bukkit
-          <small>分类</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/08/11/%E7%88%AC%E5%9B%BE/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/08/11/%E7%88%AC%E5%9B%BE/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
-    </div>
+        <blockquote>
+<h1 id="Jsoup-爬图-amp-内容"><a href="#Jsoup-爬图-amp-内容" class="headerlink" title="Jsoup 爬图&amp;内容"></a>Jsoup 爬图&amp;内容</h1></blockquote>
+<span id="more"></span>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<blockquote>
+<h2 id="API"><a href="#API" class="headerlink" title="API:"></a>API:</h2></blockquote>
+<ul>
+<li>天气 API <a target="_blank" rel="noopener" href="https://www.tianqiapi.com/api?version=v6&amp;appid=26278272&amp;appsecret=fTYv7v5E&amp;city=">https://www.tianqiapi.com/api?version=v6&amp;appid=26278272&amp;appsecret=fTYv7v5E&amp;city=</a></li>
+<li>P站图片 API <a target="_blank" rel="noopener" href="https://api.lolicon.app/setu/v1">https://api.lolicon.app/setu/v1</a></li>
+</ul>
+<hr>
+<blockquote>
+<h4>天气API使用方法 </h4> 
+</blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.tianqiapi.com/">天气官网</a></li>
+<li>注册&amp;登录 -&gt; 获取个人appid</li>
+<li>所有api数据都可在网站内查看</li>
+<li>附: 爬数据代码</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">String body = res.body(); // 获取整个body</span><br><span class="line">JsonObject j = new JsonParser().parse(body).getAsJsonObject(); // 进行解析</span><br><span class="line">String tem = j.getAsJsonObject().get("tem").getAsString(); // 当前气温</span><br><span class="line">String tem1 = j.getAsJsonObject().get("tem1").getAsString(); // 最高气温</span><br><span class="line">String tem2 = j.getAsJsonObject().get("tem2").getAsString(); // 最低气温</span><br><span class="line">String city = j.getAsJsonObject().get("city").getAsString(); // 城市</span><br><span class="line">String wea = j.getAsJsonObject().get("wea").getAsString(); // 天气</span><br><span class="line">String win = j.getAsJsonObject().get("win").getAsString(); // 风向</span><br><span class="line">String win_speed = j.getAsJsonObject().get("win_speed").getAsString(); // 风速等级</span><br><span class="line">String win_meter = j.getAsJsonObject().get("win_meter").getAsString(); // 风速</span><br><span class="line">String air_tips = j.getAsJsonObject().get("air_tips").getAsString(); // tips</span><br><span class="line">String update_time = j.getAsJsonObject().get("update_time").getAsString(); // 更新时间</span><br><span class="line">String humidity = j.getAsJsonObject().get("humidity").getAsString(); // 湿度</span><br><span class="line">String visibility = j.getAsJsonObject().get("visibility").getAsString(); // 能见度</span><br><span class="line">String air = j.getAsJsonObject().get("air").getAsString(); // 空气质量</span><br><span class="line">String air_pm25 = j.getAsJsonObject().get("air_pm25").getAsString(); // 空气pm2.5</span><br><span class="line">String air_level = j.getAsJsonObject().get("air_level").getAsString(); // 空气质量等级</span><br><span class="line">String pressure = j.getAsJsonObject().get("pressure").getAsString(); // 压力</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<blockquote>
+<h4>P站API使用方法 </h4> 
+</blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://api.lolicon.app/#/">API官网</a></li>
+<li>所有api数据都可在网站内查看</li>
+<li>附: 爬数据代码</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">String body = res.body(); // 获取整个body</span><br><span class="line">JsonObject j = new JsonParser().parse(body).getAsJsonObject(); // 进行解析</span><br><span class="line">j.get("data").getAsJsonArray().forEach(x -&gt; { // 获取data内所有json数据</span><br><span class="line">String url = x.getAsJsonObject().get("url").getAsString(); // 获取json内图片链接</span><br><span class="line">String author = x.getAsJsonObject().get("author").getAsString(); // 获取图片作者</span><br><span class="line">String title = x.getAsJsonObject().get("title").getAsString(); // 获取图片标题</span><br><span class="line">String pid = x.getAsJsonObject().get("pid").getAsString(); // 获取图片pid</span><br><span class="line"></span><br><span class="line">URL target = new URL(url); // 将获取的url转换链接</span><br><span class="line">URLConnection urlConnection = target.openConnection(); // 使用链接</span><br><span class="line">urlConnection.addRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)"); // 欺骗浏览器</span><br><span class="line">InputStream inputStream = urlConnection.getInputStream(); // 将链接写入</span><br><span class="line">ByteArrayOutputStream Baos = new ByteArrayOutputStream(); // 创建内存存储</span><br><span class="line">int temp = 0; </span><br><span class="line">while ((temp = inputStream.read()) != -1) {</span><br><span class="line">    Baos.write(temp); // 循环写入直到写完 -1停止</span><br><span class="line">}</span><br><span class="line">Baos.close(); // 关闭写入</span><br><span class="line">byte[] bytes = Baos.toByteArray(); // 写入的值转换为Byte字符</span><br><span class="line">try (ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(bytes)) { // 写入内存</span><br><span class="line">    ExternalResource er = ExternalResource.create(byteArrayInputStream); // 创建发送</span><br><span class="line">    ForwardMessageBuilder builder = new ForwardMessageBuilder(e.getSubject()); // 创建QQ转发</span><br><span class="line">    builder.add(e.getBot().getId(), "卢本伟", new PlainText("作品名称: " + title + "\n")</span><br><span class="line">            .plus(e.getSubject().uploadImage(er).plus("\n作者: " + author).plus("\tpid: " + pid)));</span><br><span class="line">    ForwardMessage forward = builder.build();</span><br><span class="line">    e.getSubject().sendMessage(forward); // 发送</span><br></pre></td></tr></tbody></table></figure>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-08-03T19:06:00+08:00"
-              content="2021-08-03">
-          08-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/08/03/Bukkit-2/" itemprop="url">
-            <span itemprop="name">Bukkit#2 ✨</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-08-03T13:13:07+08:00"
-              content="2021-08-03">
-          08-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/08/03/Bukkit-1/" itemprop="url">
-            <span itemprop="name">Bukkit#1 ✨</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
 
     </div>
+
+    
+    
+    
+     
+      <div>
+     <div>
+  
+    <div style="text-align:center;color:#bfbfbf;font-size:16px;">
+      <span>-------- 本文结束 </span>
+      <i class="fa fa-fa fa-home"></i>
+      <span> 感谢阅读 --------</span>
+    </div>
+  
+</div>
+      </div>
+    
+        <div class="reward-container">
+  <div>觉得不错可以给我打赏.</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="CanYing 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="CanYing 支付宝">
+        <p>支付宝</p>
+      </div>
+
   </div>
-  
-  
-  
+</div>
 
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/08/06/java%E8%AE%B0%E5%BD%95/" rel="prev" title="java记录 🌈">
+      <i class="fa fa-chevron-left"></i> java记录 🌈
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -417,6 +515,7 @@ show_date_time();
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Jsoup-%E7%88%AC%E5%9B%BE-amp-%E5%86%85%E5%AE%B9"><span class="nav-number">1.</span> <span class="nav-text">Jsoup 爬图&amp;内容</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#API"><span class="nav-number">1.1.</span> <span class="nav-text">API:</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">天气API使用方法 </span></a></li><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">P站API使用方法 </span></a></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
