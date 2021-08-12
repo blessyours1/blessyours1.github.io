@@ -147,6 +147,123 @@
       </tags>
   </entry>
   <entry>
+    <title>JavaScript</title>
+    <url>/2021/08/12/JavaScript/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h1></blockquote>
+<span id="more"></span>
+
+<blockquote>
+<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2></blockquote>
+<blockquote>
+<h2 id="创建数组-Array内可包含所有的数据类型"><a href="#创建数组-Array内可包含所有的数据类型" class="headerlink" title="创建数组 Array内可包含所有的数据类型"></a>创建数组 Array内可包含所有的数据类型</h2></blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="string">"你好"</span>,<span class="string">'1'</span>]; </span><br><span class="line">arr[<span class="number">0</span>]</span><br><span class="line">arr[<span class="number">0</span>] = <span class="number">1</span></span><br></pre></td></tr></tbody></table></figure>
+<blockquote>
+<h3 id="1-length长度"><a href="#1-length长度" class="headerlink" title="1.length长度"></a>1.length长度</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">arr.length</span><br></pre></td></tr></tbody></table></figure>
+<p><strong>注: 使用arr.length赋值,数组大小发生变化,如赋值过小,元素丢失</strong></p>
+<blockquote>
+<h3 id="2-indexOf-通过元素获得下标索引的值"><a href="#2-indexOf-通过元素获得下标索引的值" class="headerlink" title="2.indexOf()  通过元素获得下标索引的值"></a>2.indexOf()  通过元素获得下标索引的值</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">arr.indexOf(<span class="number">2</span>);</span><br><span class="line">输出值: <span class="number">1</span></span><br></pre></td></tr></tbody></table></figure>
+<p><strong>注: 字符串 “1” 和数字 1 不同</strong></p>
+<blockquote>
+<h3 id="3-slice-截取Array的一部分字符串-返回新数组-与Sting中subString类似"><a href="#3-slice-截取Array的一部分字符串-返回新数组-与Sting中subString类似" class="headerlink" title="3.slice() 截取Array的一部分字符串,返回新数组,与Sting中subString类似"></a>3.slice() 截取Array的一部分字符串,返回新数组,与Sting中subString类似</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">slice(<span class="number">1</span>);</span><br><span class="line">输出值: [<span class="number">2</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="string">"你好"</span>]</span><br><span class="line">slice(<span class="number">1</span>,<span class="number">3</span>)</span><br><span class="line">输出值: [<span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></tbody></table></figure>
+<p><strong>注: 去头含尾</strong></p>
+<blockquote>
+<h3 id="4-push-pop-尾部"><a href="#4-push-pop-尾部" class="headerlink" title="4.push(),pop() 尾部"></a>4.push(),pop() 尾部</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">push: 尾部增加一个元素</span><br><span class="line">pop: 删除尾部一个元素</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="5-unshift-shift-头部"><a href="#5-unshift-shift-头部" class="headerlink" title="5.unshift(),shift() 头部"></a>5.unshift(),shift() 头部</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">unshift: 头部增加一个元素</span><br><span class="line">shift: 删除头部一个元素</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="6-sort-排序"><a href="#6-sort-排序" class="headerlink" title="6.sort() 排序"></a>6.sort() 排序</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"C"</span>,<span class="string">"A"</span>,<span class="string">"B"</span>]</span><br><span class="line">arr.sort();</span><br><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="7-reverse-反转"><a href="#7-reverse-反转" class="headerlink" title="7.reverse() 反转"></a>7.reverse() 反转</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br><span class="line">arr.reverse();</span><br><span class="line">[<span class="string">"C"</span>,<span class="string">"B"</span>,<span class="string">"A"</span>]</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="8-concat-拼接"><a href="#8-concat-拼接" class="headerlink" title="8.concat() 拼接"></a>8.concat() 拼接</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br><span class="line">arr.concat([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>])</span><br><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">arr</span><br><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>注意: concat() 不会修改数组,只是返回一个新数组</strong></p>
+<blockquote>
+<h3 id="9-join-拼接数组"><a href="#9-join-拼接数组" class="headerlink" title="9.join() 拼接数组"></a>9.join() 拼接数组</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br><span class="line">join(<span class="string">'-'</span>);</span><br><span class="line"><span class="string">"A-B-C"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="10-多维数组"><a href="#10-多维数组" class="headerlink" title="10.多维数组"></a>10.多维数组</h3></blockquote>
+<blockquote>
+<p><strong>实例:</strong></p>
+</blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">arr = [[<span class="number">1</span>,<span class="number">2</span>],[<span class="number">3</span>,<span class="number">4</span>],[<span class="string">"A"</span>,<span class="string">"B"</span>]];</span><br><span class="line">arr = [<span class="number">1</span>][<span class="number">1</span>]</span><br><span class="line">输出值: <span class="number">4</span></span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<blockquote>
+<h2 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h2></blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> 对象名 = {</span><br><span class="line">    属性名: 属性值,</span><br><span class="line">    属性名: 属性值,</span><br><span class="line">    属性名: 属性值</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> test = {</span><br><span class="line">    <span class="attr">name</span>: <span class="string">"cy"</span>,</span><br><span class="line">    <span class="attr">tag</span>: <span class="string">"程序员"</span>,</span><br><span class="line">    <span class="attr">age</span>: <span class="number">18</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<p><strong>注 多个属性中间使用逗号,最后不用加逗号,{…}表示一个对象</strong></p>
+<blockquote>
+<h3 id="1-对象赋值"><a href="#1-对象赋值" class="headerlink" title="1.对象赋值"></a>1.对象赋值</h3></blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">对象名.属性名 = 属性值</span><br><span class="line">test.name = <span class="string">"Cy"</span>;</span><br><span class="line">返回: <span class="string">"cy"</span></span><br><span class="line">test.name;</span><br><span class="line">返回: <span class="string">"cy"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="2-如使用不存在的对象属性-返回-undefined-空对象"><a href="#2-如使用不存在的对象属性-返回-undefined-空对象" class="headerlink" title="2.如使用不存在的对象属性, 返回: undefined 空对象"></a>2.如使用不存在的对象属性, 返回: undefined 空对象</h3></blockquote>
+<blockquote>
+<h3 id="3-动态删减属性-使用delete"><a href="#3-动态删减属性-使用delete" class="headerlink" title="3.动态删减属性, 使用delete"></a>3.动态删减属性, 使用delete</h3></blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> test.name</span><br><span class="line">返回: <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="4-动态添加"><a href="#4-动态添加" class="headerlink" title="4.动态添加"></a>4.动态添加</h3></blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">test.score = <span class="number">88</span>;</span><br><span class="line">返回: <span class="number">88</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="5-判断是否在对象中"><a href="#5-判断是否在对象中" class="headerlink" title="5.判断是否在对象中"></a>5.判断是否在对象中</h3></blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="string">'age'</span> <span class="keyword">in</span> test</span><br><span class="line">返回: <span class="literal">true</span></span><br><span class="line">&lt;!-- 继承 --&gt;</span><br><span class="line"><span class="string">'toString'</span> <span class="keyword">in</span> test</span><br><span class="line">返回: <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<h3 id="6-判断一个属性是否在对象内-hasOwnProperty"><a href="#6-判断一个属性是否在对象内-hasOwnProperty" class="headerlink" title="6.判断一个属性是否在对象内 hasOwnProperty()"></a>6.判断一个属性是否在对象内 hasOwnProperty()</h3></blockquote>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">test.hasOwnProperty(<span class="string">'toSting'</span>)</span><br><span class="line">返回: <span class="literal">false</span></span><br><span class="line">tes.hasOwnProperty(<span class="string">'age'</span>)</span><br><span class="line">返回: <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+]]></content>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Jsoup爬图 👻</title>
     <url>/2021/08/05/Jsoup%E7%88%AC%E5%9B%BE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
