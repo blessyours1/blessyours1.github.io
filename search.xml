@@ -1,306 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Bukkit#1 ✨</title>
-    <url>/2021/08/03/Bukkit-1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id="插件开发第一期-Bilibili专栏"><a href="#插件开发第一期-Bilibili专栏" class="headerlink" title="插件开发第一期 [Bilibili专栏]"></a>插件开发第一期 <a href="https://www.bilibili.com/read/cv12317336">[Bilibili专栏]</a></h1></blockquote>
-<span id="more"></span>
-<h2 id="本期分为五个步骤"><a href="#本期分为五个步骤" class="headerlink" title="本期分为五个步骤:"></a>本期分为五个步骤:</h2><p><strong>1. 安装JDK (推荐版本8)</strong><br><strong>2. 修改JAVA路径</strong><br><strong>3. 安装编程工具IDEA</strong><br><strong>4. 安装完成IDEA之后下载插件</strong><br><strong>5. 创建一个新的项目</strong></p>
-<hr>
-<h3 id="第一步-下载JDK-点击前往"><a href="#第一步-下载JDK-点击前往" class="headerlink" title="第一步 下载JDK [点击前往]"></a>第一步 下载JDK <a href="https://adoptopenjdk.net/releases.html?variant=openjdk8&amp;jvmVariant=hotspot">[点击前往]</a></h3><ul>
-<li>选择JDK8版本</li>
-<li>进行下载并安装</li>
-</ul>
-<hr>
-<h3 id="第二步-更改JAVA路径"><a href="#第二步-更改JAVA路径" class="headerlink" title="第二步 更改JAVA路径"></a>第二步 更改JAVA路径</h3><ul>
-<li>右键我的电脑属性 -&gt; 高级系统设置 -&gt; 高级 -&gt; 环境变量 </li>
-<li>然后在环境变量的系统变量内新建一个 JAVA_HOME</li>
-<li>编辑 JAVA_HOME 放入安装JDK的位置</li>
-<li>设置完成关闭,在系统变量内找到Path编辑 增加&nbsp;%JAVA_HOME%\bin 放到第一个位置</li>
-<li>接着保存,打开 CMD 输入 java -version 如果显示版本就已经完成了</li>
-</ul>
-<hr>
-<h3 id="第三步-下载IDEA-点击前往"><a href="#第三步-下载IDEA-点击前往" class="headerlink" title="第三步 下载IDEA [点击前往]"></a>第三步 下载IDEA <a href="https://www.jetbrains.com/idea/">[点击前往]</a></h3><ul>
-<li>IDEA官网 (百度搜索IDEA进入官网)</li>
-<li>点击 Download 下载 右边社区版(免费) 有条件的可以去购买付费版</li>
-<li>下载完安装</li>
-<li>选择安装路径和设置</li>
-</ul>
-<hr>
-<h3 id="第四步-打开IDEA"><a href="#第四步-打开IDEA" class="headerlink" title="第四步 打开IDEA"></a>第四步 打开IDEA</h3><ul>
-<li>进入 Setting 设置内有个 Plugins (插件)</li>
-<li>搜索 Chinese 下载中文语言</li>
-<li>再搜索 Minecraft Development 下载安装</li>
-</ul>
-<hr>
-<h3 id="第五步-创建一个新项目"><a href="#第五步-创建一个新项目" class="headerlink" title="第五步 创建一个新项目"></a>第五步 创建一个新项目</h3><ul>
-<li>选择左侧的 Minecraft 并再右上角添加JDK的路径</li>
-<li>选择 spigot 插件进行下一步<br><img src="/images/1.png" alt="1"><br><img src="/images/2.png" alt="2"><br><img src="/images/3.png" alt="3"></li>
-<li>完成之后将会创建一个项目</li>
-<li>第一次使用需要等待右下角下载完成<br><img src="/images/%E4%B8%BB%E7%B1%BB.png" alt="主类"></li>
-<li>左上角 src -&gt; main -&gt; java -&gt; 包名 -&gt; 主类</li>
-<li>现在已经成功创建完一个项目</li>
-<li><strong>我会在下一期讲解如何去写一个mc的事件并讲解各个部分</strong></li>
-</ul>
-<hr>
-]]></content>
-      <categories>
-        <category>java</category>
-        <category>Minecraft</category>
-        <category>Bukkit</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>Minecraft</tag>
-        <tag>Bukkit</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Bukkit#2 ✨</title>
-    <url>/2021/08/03/Bukkit-2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id="Minecraft-插件开发第二期-Bilibili专栏"><a href="#Minecraft-插件开发第二期-Bilibili专栏" class="headerlink" title="Minecraft 插件开发第二期 [Bilibili专栏]"></a>Minecraft 插件开发第二期 <a href="https://www.bilibili.com/read/cv12500524">[Bilibili专栏]</a></h1></blockquote>
-<span id="more"></span>
-<blockquote>
-<h2 id="需要用到的网站-javadocs"><a href="#需要用到的网站-javadocs" class="headerlink" title="需要用到的网站 [javadocs]"></a>需要用到的网站 <a href="https://hub.spigotmc.org/javadocs/spigot/index.html">[javadocs]</a></h2></blockquote>
-<blockquote>
-<h2 id="本期分为二个步骤"><a href="#本期分为二个步骤" class="headerlink" title="本期分为二个步骤:"></a>本期分为二个步骤:</h2><p><strong>1. 了解主类内容</strong><br><strong>2. 创建一个事件并使用</strong></p>
-</blockquote>
-<blockquote>
-<h3 id="了解主类内容"><a href="#了解主类内容" class="headerlink" title="了解主类内容"></a>了解主类内容</h3></blockquote>
-<ul>
-<li>接着上一次的步骤创建完项目之后</li>
-<li>我们需要打开 左上角 src -&gt; main -&gt; java -&gt; 包名 -&gt; 主类 </li>
-<li>主类是你创建的名称</li>
-<li>打开我们的主类可以看到</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() { // 插件开启时执行</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">@Override</span><br><span class="line">public void onDisable() { // 插件关闭时执行</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<ul>
-<li>首先我将教大家可以更加醒目的从控制台上看到自己的插件启用和关闭</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() {</span><br><span class="line">getLogger().info("插件已经启用"); // 开启时执行的信息</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">@Override</span><br><span class="line">public void onDisable() {</span><br><span class="line">getLogger().info("插件已经卸载"); // 关闭时执行的信息</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<ul>
-<li>非常的简单,这样就能自定义提示信息,不过这样还有点不明显,我们需要让字变成彩色</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() {</span><br><span class="line">getLogger().info(ChatColor.AQUA + "插件已经启用"); // 开启时执行的信息是青蓝色的</span><br><span class="line">getLogger().info("§b插件已经启用"); // 开启时执行的信息是青蓝色的</span><br><span class="line">// 当然 你不能写两个上去 只能选一种方式</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">@Override</span><br><span class="line">public void onDisable() {</span><br><span class="line">getLogger().info(ChatColor.RED + "插件已经卸载"); // 关闭时执行的信息是红色的</span><br><span class="line">getLogger().info("§4插件已经卸载"); // 关闭时执行的信息是红色的</span><br><span class="line">// 当然 你不能写两个上去 只能选一种方式</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<ul>
-<li>在前面加上 ChatColor.AQUA 或者 使用 § 颜色符号 都可以使后面的字体变换颜色</li>
-<li>如果想要使用 &amp; 符号 代替 § 符号也是可以的,我会在后面的教程告诉大家</li>
-</ul>
-<blockquote>
-<h3 id="创建事件"><a href="#创建事件" class="headerlink" title="创建事件"></a>创建事件</h3></blockquote>
-<ul>
-<li>事件是某某某执行或者触发了一个事情,然后触发一系列的事件(需要我们玩家自己写)</li>
-<li>接下来我们需要再创建一个 java类 存放我们的事件 (event)</li>
-<li>右键 我们主类上面的包名称 新建一个java类 名称取: PluginEvent(只要不重复名称随便取)<br><img src="/images/%E6%96%B0%E5%BB%BA.png" alt="新建"></li>
-<li>完成之后 我们需要让这个类 接上事件 Listener (事件必须加)</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">public class PluginEvent implements Listener {</span><br><span class="line">    </span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<ul>
-<li>接下来创建一个事件</li>
-<li>我拿阻止苦力怕爆炸来作为演示</li>
-<li>首先我们需要知道苦力怕爆炸这个事件叫什么</li>
-<li>我在这里分享一个事件网址 <a href="https://hub.spigotmc.org/javadocs/spigot/index.html">点击前往</a></li>
-<li>打开网址找到 org.bukkit.event.entity -&gt; EntityExplodeEvent</li>
-<li>意思是生物事件 -&gt; 生物爆炸事件</li>
-<li>现在开始创建一个事件 EntityExplodeEvent </li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">public class PluginEvent implements Listener {</span><br><span class="line"></span><br><span class="line">    @EventHandler // 方法注解 有这个注解的方法会在事件执行时调用</span><br><span class="line">    public static void EEE(EntityExplodeEvent event){ // 这是一个实体爆炸的事件 需要导入我们的事件</span><br><span class="line">        // 填写我们的内容</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<ul>
-<li>接下来我们需要在事件内部写上我们的想法</li>
-<li>首先需要是苦力怕,然后让它爆炸之后返回</li>
-<li>这样就不会炸毁方块了</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">@EventHandler // 方法注解 有这个注解的方法会在事件执行时调用</span><br><span class="line">public static void EEE(EntityExplodeEvent event){ // 思路: 如果是苦力怕返回爆炸之前</span><br><span class="line">    if (event.getEntityType() == EntityType.CREEPER){ // 如果我们的生物类型是苦力怕</span><br><span class="line">        event.setCancelled(true); // true确定返回</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<ul>
-<li>接下来我们需要返回主类</li>
-<li>在onEnable内加入 getServer().getPluginManager().registerEvents(new PluginEvent(),this);</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">@Override</span><br><span class="line">public void onEnable() {</span><br><span class="line">    getLogger().info(ChatColor.AQUA + "插件已经启用"); // 开启时执行的信息是青蓝色的</span><br><span class="line">    getServer().getPluginManager().registerEvents(new PluginEvent(),this); // 注册一个事件类PluginEvent 位置是事件类的名称</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<ul>
-<li>然后我们点击右上角的绿色箭头运行</li>
-<li>idea会将我们的插件放入左侧 target文件夹里<br><img src="/images/target.png" alt="target"></li>
-<li>右键我们的插件 打开于Explorer 自动开启所在位置</li>
-<li>然后将插件拖入服务器插件文件夹并启动服务器</li>
-<li>开启之后会显示我们刚才写的<br><img src="/images/onEnable.png" alt="onEnable"></li>
-<li>当然关闭也是会显示的</li>
-<li>接下来进服务器苦力怕它就不会爆炸了</li>
-</ul>
-<blockquote>
-<p><strong>本期事件的教程到此结束 感谢各位阅读</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>下一期 - 如何写一个指令并执行</strong></p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>java</category>
-        <category>Minecraft</category>
-        <category>Bukkit</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>Minecraft</tag>
-        <tag>Bukkit</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jsoup爬图 👻</title>
-    <url>/2021/08/05/Jsoup%E7%88%AC%E5%9B%BE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1></blockquote>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">public static void main(String[] args) throws Exception {</span><br><span class="line">        String url = "https://www.bilibili.com/read/cv12423779?from=search"; // 链接</span><br><span class="line">        Document document = Jsoup.parse(new URL(url), 10000); // 用Jsoup解析网站</span><br><span class="line">        Element elementById = document.getElementById("read-article-holder"); // </span><br><span class="line">        Elements img = elementById.getElementsByTag("img");</span><br><span class="line">        int id = 0;</span><br><span class="line">        for (Element element : img) {</span><br><span class="line">            String src = element.attr("data-src");</span><br><span class="line">            URL target = new URL("https:"+ src);</span><br><span class="line">            URLConnection urlConnection = target.openConnection();</span><br><span class="line">            InputStream inputStream = urlConnection.getInputStream();</span><br><span class="line">            id++;</span><br><span class="line">            OutputStream outputStream = new FileOutputStream("D:\\图片\\"+id+".jpg");</span><br><span class="line">            int temp = 0;</span><br><span class="line">            while ((temp=inputStream.read())!=-1){</span><br><span class="line">                outputStream.write(temp);</span><br><span class="line">            }</span><br><span class="line">            outputStream.close();</span><br><span class="line">            inputStream.close();</span><br><span class="line">        }</span><br><span class="line">    }</span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">public static void main(String[] args) throws Exception {</span><br><span class="line">        String s = "https://api.lolicon.app/setu/"; // API网址</span><br><span class="line">        Connection.Response res =</span><br><span class="line">                Jsoup.connect(s).header("Accept", "*/*").header("Accept-Encoding", "gzip, deflate")</span><br><span class="line">                        .header("Accept-Language", "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3")</span><br><span class="line">                        .header("Content-Type", "application/json;charset=UTF-8")</span><br><span class="line">                        .header("Content-Type", "application/x-javascript;charset=UTF-8")</span><br><span class="line">                        .timeout(10000).ignoreContentType(true).execute();</span><br><span class="line">        String body = res.body(); // 用 jsoup 导出网站 body内信息</span><br><span class="line">        JsonObject j = new JsonParsxer().parse(body).getAsJsonObject(); // 将body放入</span><br><span class="line">        j.get("data").getAsJsonArray().forEach(x -&gt; {</span><br><span class="line">            String url = x.getAsJsonObject().get("url").getAsString(); // 获取url</span><br><span class="line">            try {</span><br><span class="line">                URL target = new URL(url); // 将链接放入 URL</span><br><span class="line">                try {</span><br><span class="line">                    URLConnection urlConnection = target.openConnection();</span><br><span class="line">                    urlConnection.addRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)"); // User-Agent 403!</span><br><span class="line">                    InputStream inputStream = urlConnection.getInputStream();</span><br><span class="line">                    ByteArrayOutputStream Baos = new ByteArrayOutputStream();</span><br><span class="line">                    int temp = 0;</span><br><span class="line">                    while ((temp = inputStream.read()) != -1) {</span><br><span class="line">                        Baos.write(temp);</span><br><span class="line">                    }</span><br><span class="line">                    Baos.close();</span><br><span class="line">                    byte[] bytes = Baos.toByteArray(); // 写进去的Baos改成Byte</span><br><span class="line">                    try (ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(bytes)) {</span><br><span class="line">                        ExternalResource er = ExternalResource.create(byteArrayInputStream);</span><br><span class="line">                        e.getSubject().sendMessage(e.getSubject().uploadImage(er));</span><br><span class="line">                    }</span><br><span class="line">                    inputStream.close();</span><br><span class="line">                } catch (IOException ioException) {</span><br><span class="line">                    ioException.printStackTrace();</span><br><span class="line">                }</span><br><span class="line">            } catch (IOException malformedURLException) {</span><br><span class="line">                malformedURLException.printStackTrace();</span><br><span class="line">            }</span><br><span class="line">        });</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>爬图</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaScript</title>
-    <url>/2021/08/12/JavaScript/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h1></blockquote>
-<span id="more"></span>
-
-<blockquote>
-<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2></blockquote>
-<blockquote>
-<h2 id="创建数组-Array内可包含所有的数据类型"><a href="#创建数组-Array内可包含所有的数据类型" class="headerlink" title="创建数组 Array内可包含所有的数据类型"></a>创建数组 Array内可包含所有的数据类型</h2></blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="string">"你好"</span>,<span class="string">'1'</span>]; </span><br><span class="line">arr[<span class="number">0</span>]</span><br><span class="line">arr[<span class="number">0</span>] = <span class="number">1</span></span><br></pre></td></tr></tbody></table></figure>
-<blockquote>
-<h3 id="1-length长度"><a href="#1-length长度" class="headerlink" title="1.length长度"></a>1.length长度</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">arr.length</span><br></pre></td></tr></tbody></table></figure>
-<p><strong>注: 使用arr.length赋值,数组大小发生变化,如赋值过小,元素丢失</strong></p>
-<blockquote>
-<h3 id="2-indexOf-通过元素获得下标索引的值"><a href="#2-indexOf-通过元素获得下标索引的值" class="headerlink" title="2.indexOf()  通过元素获得下标索引的值"></a>2.indexOf()  通过元素获得下标索引的值</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">arr.indexOf(<span class="number">2</span>);</span><br><span class="line">输出值: <span class="number">1</span></span><br></pre></td></tr></tbody></table></figure>
-<p><strong>注: 字符串 “1” 和数字 1 不同</strong></p>
-<blockquote>
-<h3 id="3-slice-截取Array的一部分字符串-返回新数组-与Sting中subString类似"><a href="#3-slice-截取Array的一部分字符串-返回新数组-与Sting中subString类似" class="headerlink" title="3.slice() 截取Array的一部分字符串,返回新数组,与Sting中subString类似"></a>3.slice() 截取Array的一部分字符串,返回新数组,与Sting中subString类似</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">slice(<span class="number">1</span>);</span><br><span class="line">输出值: [<span class="number">2</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="string">"你好"</span>]</span><br><span class="line">slice(<span class="number">1</span>,<span class="number">3</span>)</span><br><span class="line">输出值: [<span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></tbody></table></figure>
-<p><strong>注: 去头含尾</strong></p>
-<blockquote>
-<h3 id="4-push-pop-尾部"><a href="#4-push-pop-尾部" class="headerlink" title="4.push(),pop() 尾部"></a>4.push(),pop() 尾部</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">push: 尾部增加一个元素</span><br><span class="line">pop: 删除尾部一个元素</span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="5-unshift-shift-头部"><a href="#5-unshift-shift-头部" class="headerlink" title="5.unshift(),shift() 头部"></a>5.unshift(),shift() 头部</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">unshift: 头部增加一个元素</span><br><span class="line">shift: 删除头部一个元素</span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="6-sort-排序"><a href="#6-sort-排序" class="headerlink" title="6.sort() 排序"></a>6.sort() 排序</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"C"</span>,<span class="string">"A"</span>,<span class="string">"B"</span>]</span><br><span class="line">arr.sort();</span><br><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="7-reverse-反转"><a href="#7-reverse-反转" class="headerlink" title="7.reverse() 反转"></a>7.reverse() 反转</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br><span class="line">arr.reverse();</span><br><span class="line">[<span class="string">"C"</span>,<span class="string">"B"</span>,<span class="string">"A"</span>]</span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="8-concat-拼接"><a href="#8-concat-拼接" class="headerlink" title="8.concat() 拼接"></a>8.concat() 拼接</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br><span class="line">arr.concat([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>])</span><br><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">arr</span><br><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br></pre></td></tr></tbody></table></figure>
-
-<p><strong>注意: concat() 不会修改数组,只是返回一个新数组</strong></p>
-<blockquote>
-<h3 id="9-join-拼接数组"><a href="#9-join-拼接数组" class="headerlink" title="9.join() 拼接数组"></a>9.join() 拼接数组</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">[<span class="string">"A"</span>,<span class="string">"B"</span>,<span class="string">"C"</span>]</span><br><span class="line">join(<span class="string">'-'</span>);</span><br><span class="line"><span class="string">"A-B-C"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="10-多维数组"><a href="#10-多维数组" class="headerlink" title="10.多维数组"></a>10.多维数组</h3></blockquote>
-<blockquote>
-<p><strong>实例:</strong></p>
-</blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">arr = [[<span class="number">1</span>,<span class="number">2</span>],[<span class="number">3</span>,<span class="number">4</span>],[<span class="string">"A"</span>,<span class="string">"B"</span>]];</span><br><span class="line">arr = [<span class="number">1</span>][<span class="number">1</span>]</span><br><span class="line">输出值: <span class="number">4</span></span><br></pre></td></tr></tbody></table></figure>
-
-<hr>
-<blockquote>
-<h2 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h2></blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> 对象名 = {</span><br><span class="line">    属性名: 属性值,</span><br><span class="line">    属性名: 属性值,</span><br><span class="line">    属性名: 属性值</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> test = {</span><br><span class="line">    <span class="attr">name</span>: <span class="string">"cy"</span>,</span><br><span class="line">    <span class="attr">tag</span>: <span class="string">"程序员"</span>,</span><br><span class="line">    <span class="attr">age</span>: <span class="number">18</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<p><strong>注 多个属性中间使用逗号,最后不用加逗号,{…}表示一个对象</strong></p>
-<blockquote>
-<h3 id="1-对象赋值"><a href="#1-对象赋值" class="headerlink" title="1.对象赋值"></a>1.对象赋值</h3></blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">对象名.属性名 = 属性值</span><br><span class="line">test.name = <span class="string">"Cy"</span>;</span><br><span class="line">返回: <span class="string">"cy"</span></span><br><span class="line">test.name;</span><br><span class="line">返回: <span class="string">"cy"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="2-如使用不存在的对象属性-返回-undefined-空对象"><a href="#2-如使用不存在的对象属性-返回-undefined-空对象" class="headerlink" title="2.如使用不存在的对象属性, 返回: undefined 空对象"></a>2.如使用不存在的对象属性, 返回: undefined 空对象</h3></blockquote>
-<blockquote>
-<h3 id="3-动态删减属性-使用delete"><a href="#3-动态删减属性-使用delete" class="headerlink" title="3.动态删减属性, 使用delete"></a>3.动态删减属性, 使用delete</h3></blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> test.name</span><br><span class="line">返回: <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="4-动态添加"><a href="#4-动态添加" class="headerlink" title="4.动态添加"></a>4.动态添加</h3></blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">test.score = <span class="number">88</span>;</span><br><span class="line">返回: <span class="number">88</span></span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="5-判断是否在对象中"><a href="#5-判断是否在对象中" class="headerlink" title="5.判断是否在对象中"></a>5.判断是否在对象中</h3></blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="string">'age'</span> <span class="keyword">in</span> test</span><br><span class="line">返回: <span class="literal">true</span></span><br><span class="line">&lt;!-- 继承 --&gt;</span><br><span class="line"><span class="string">'toString'</span> <span class="keyword">in</span> test</span><br><span class="line">返回: <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<h3 id="6-判断一个属性是否在对象内-hasOwnProperty"><a href="#6-判断一个属性是否在对象内-hasOwnProperty" class="headerlink" title="6.判断一个属性是否在对象内 hasOwnProperty()"></a>6.判断一个属性是否在对象内 hasOwnProperty()</h3></blockquote>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">test.hasOwnProperty(<span class="string">'toSting'</span>)</span><br><span class="line">返回: <span class="literal">false</span></span><br><span class="line">tes.hasOwnProperty(<span class="string">'age'</span>)</span><br><span class="line">返回: <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
-
-
-
-]]></content>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT美化 ✨</title>
-    <url>/2021/08/03/NexT%E7%BE%8E%E5%8C%96/</url>
+    <title>NexT主题美化 ✨</title>
+    <url>/2023/02/01/NexT%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
 <h1 id="本站美化教程"><a href="#本站美化教程" class="headerlink" title="本站美化教程"></a>本站美化教程</h1></blockquote>
 <span id="more"></span>
 
 <blockquote>
-<h3 id="记录鼠标点击特效"><a href="#记录鼠标点击特效" class="headerlink" title="记录鼠标点击特效"></a>记录鼠标点击特效</h3></blockquote>
+<h5 id="第一步：记录鼠标点击特效"><a href="#第一步：记录鼠标点击特效" class="headerlink" title="第一步：记录鼠标点击特效"></a>第一步：记录鼠标点击特效</h5></blockquote>
 <ul>
-<li>礼花JS <a href="blog.candoanythin.top/2021/08/03/%E7%A4%BC%E8%8A%B1js/#more">点击前往</a></li>
+<li>复制礼花JS代码  <em><strong>js代码在文章最底部，请滑动到底</strong></em></li>
 </ul>
 <blockquote>
-<h3 id="存放位置-themes-next-source-js-cursor-fireworks-js"><a href="#存放位置-themes-next-source-js-cursor-fireworks-js" class="headerlink" title="存放位置 - themes\next\source\js\cursor\fireworks.js"></a>存放位置 - themes\next\source\js\cursor\fireworks.js</h3></blockquote>
+<h3 id="第二步：存放位置-themes-next-source-js-cursor-fireworks-js"><a href="#第二步：存放位置-themes-next-source-js-cursor-fireworks-js" class="headerlink" title="第二步：存放位置 - themes\next\source\js\cursor\fireworks.js"></a>第二步：存放位置 - themes\next\source\js\cursor\fireworks.js</h3></blockquote>
 <ul>
 <li>如果js内无cursor文件夹 手动创建一个 再创建一个fireworks.js</li>
 <li>将礼花JS 内容复制进去</li>
 </ul>
 <blockquote>
-<h3 id="粒子漂浮背景-由theme-next-canvas-nest提供"><a href="#粒子漂浮背景-由theme-next-canvas-nest提供" class="headerlink" title="粒子漂浮背景 由theme-next-canvas-nest提供"></a>粒子漂浮背景 由<a href="https://github.com/theme-next/theme-next-canvas-nest">theme-next-canvas-nest</a>提供</h3></blockquote>
+<h3 id="第三步：粒子漂浮背景-由theme-next-canvas-nest提供"><a href="#第三步：粒子漂浮背景-由theme-next-canvas-nest提供" class="headerlink" title="第三步：粒子漂浮背景 由theme-next-canvas-nest提供"></a>第三步：粒子漂浮背景 由<a href="https://github.com/theme-next/theme-next-canvas-nest">theme-next-canvas-nest</a>提供</h3></blockquote>
 <ul>
 <li>hexo/source/_data 内创建一个 footer.swig (如果没_data 创建一个)</li>
 </ul>
@@ -311,126 +30,196 @@
 <li>将 footer: source/_data/footer.swig 启用即可</li>
 </ul>
 <blockquote>
-<h3 id="增加文章页尾结束语"><a href="#增加文章页尾结束语" class="headerlink" title="增加文章页尾结束语"></a>增加文章页尾结束语</h3></blockquote>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">================在下方位置添加如下代码================</span><br><span class="line">位置: themes\next\layout\_macro\post-end-tag.swig 没有则创建一个</span><br><span class="line">&lt;div&gt;</span><br><span class="line">  {% if not is_index %}</span><br><span class="line">    &lt;div style="text-align:center;color:#bfbfbf;font-size:16px;"&gt;</span><br><span class="line">      &lt;span&gt;-------- 文章结束 &lt;/span&gt;</span><br><span class="line">      &lt;i class="fa fa-{{ config.post_end_tag.icon }}"&gt;&lt;/i&gt;</span><br><span class="line">      &lt;span&gt; 感谢阅读 --------&lt;/span&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">  {% endif %}</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">================在下方位置添加如下代码================</span><br><span class="line">位置: themes\next\layout\_macro\post</span><br><span class="line">{#####################}</span><br><span class="line">{### END POST BODY ###}</span><br><span class="line">{#####################}</span><br><span class="line"></span><br><span class="line"> {% if config.post_end_tag.enabled and not is_index %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include 'post-end-tag.swig' %}</span><br><span class="line">   &lt;/div&gt;</span><br><span class="line"> {% endif %}</span><br></pre></td></tr></tbody></table></figure>]]></content>
-      <categories>
-        <category>主题</category>
-      </categories>
-      <tags>
-        <tag>NexT</tag>
-        <tag>主题</tag>
-        <tag>美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>java记录 🌈</title>
-    <url>/2021/08/06/java%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1></blockquote>
-<span id="more"></span>
+<h5 id="额外：增加文章页尾结束语"><a href="#额外：增加文章页尾结束语" class="headerlink" title="额外：增加文章页尾结束语"></a>额外：增加文章页尾结束语</h5></blockquote>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">================在下方位置添加如下代码================</span><br><span class="line">位置: themes\next\layout\_macro\post-end-tag.swig 没有则创建一个</span><br><span class="line">&lt;div&gt;</span><br><span class="line">  {% if not is_index %}</span><br><span class="line">    &lt;div style="text-align:center;color:#bfbfbf;font-size:16px;"&gt;</span><br><span class="line">      &lt;span&gt;-------- 文章结束 &lt;/span&gt;</span><br><span class="line">      &lt;i class="fa fa-{{ config.post_end_tag.icon }}"&gt;&lt;/i&gt;</span><br><span class="line">      &lt;span&gt; 感谢阅读 --------&lt;/span&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">  {% endif %}</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">================在下方位置添加如下代码================</span><br><span class="line">位置: themes\next\layout\_macro\post</span><br><span class="line">{#####################}</span><br><span class="line">{### END POST BODY ###}</span><br><span class="line">{#####################}</span><br><span class="line"></span><br><span class="line"> {% if config.post_end_tag.enabled and not is_index %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include 'post-end-tag.swig' %}</span><br><span class="line">   &lt;/div&gt;</span><br><span class="line"> {% endif %}</span><br></pre></td></tr></tbody></table></figure>
 
 <blockquote>
-<h2 id="随机数值方法"><a href="#随机数值方法" class="headerlink" title="随机数值方法:"></a>随机数值方法:</h2></blockquote>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">public static int getLuck() {</span><br><span class="line">    Random r = new Random();</span><br><span class="line">        return r.nextInt(); // 值</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">substring 字符串中的位置</span><br><span class="line">indexOf 字符串首次出现的位置</span><br></pre></td></tr></tbody></table></figure>
-
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringBoot定时任务</title>
-    <url>/2021/08/12/SpringBoot%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id="SpringBoot-定时任务"><a href="#SpringBoot-定时任务" class="headerlink" title="SpringBoot 定时任务"></a>SpringBoot 定时任务</h1></blockquote>
-<span id="more"></span>
-
-<blockquote>
-<h2 id="依赖项"><a href="#依赖项" class="headerlink" title="依赖项"></a>依赖项</h2></blockquote>
-<figure class="highlight xml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 放入 pom.xml --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-context<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>5.3.9<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.slf4j<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>slf4j-simple<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.7.30<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-<blockquote>
-<h2 id="创建定时任务"><a href="#创建定时任务" class="headerlink" title="创建定时任务"></a>创建定时任务</h2></blockquote>
-<figure class="highlight java"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">task</span> </span>{</span><br><span class="line">    <span class="meta">@Scheduled(fixedDelay = 1000)</span> <span class="comment">// 每秒执行一次</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> 类名() {</span><br><span class="line">        System.out.println(<span class="string">"每秒一次"</span>); <span class="comment">// 每秒输出一次内容</span></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<blockquote>
-<h2 id="Cron-表达式"><a href="#Cron-表达式" class="headerlink" title="Cron 表达式"></a>Cron 表达式</h2></blockquote>
-<ul>
-<li>秒（0~59） 例如0/5表示每5秒</li>
-<li>分（0~59）</li>
-<li>时（0~23）</li>
-<li>日（0~31）的某天，需计算</li>
-<li>月（0~11）</li>
-<li>周几（ 可填1-7 或 SUN/MON/TUE/WED/THU/FRI/SAT）</li>
-</ul>
-<figure class="highlight yml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="string">每隔5秒执行一次：*/5</span> <span class="string">*</span> <span class="string">*</span> <span class="string">*</span> <span class="string">*</span> <span class="string">?</span></span><br><span class="line"></span><br><span class="line"><span class="string">每隔1分钟执行一次：0</span> <span class="string">*/1</span> <span class="string">*</span> <span class="string">*</span> <span class="string">*</span> <span class="string">?</span></span><br><span class="line"></span><br><span class="line"><span class="string">每天23点执行一次：0</span> <span class="number">0</span> <span class="number">23</span> <span class="string">*</span> <span class="string">*</span> <span class="string">?</span></span><br><span class="line"></span><br><span class="line"><span class="string">每天凌晨1点执行一次：0</span> <span class="number">0</span> <span class="number">1</span> <span class="string">*</span> <span class="string">*</span> <span class="string">?</span></span><br><span class="line"></span><br><span class="line"><span class="string">每月1号凌晨1点执行一次：0</span> <span class="number">0</span> <span class="number">1</span> <span class="number">1</span> <span class="string">*</span> <span class="string">?</span></span><br><span class="line"></span><br><span class="line"><span class="string">每月最后一天23点执行一次：0</span> <span class="number">0</span> <span class="number">23</span> <span class="string">L</span> <span class="string">*</span> <span class="string">?</span></span><br><span class="line"></span><br><span class="line"><span class="string">每周星期天凌晨1点实行一次：0</span> <span class="number">0</span> <span class="number">1</span> <span class="string">?</span> <span class="string">*</span> <span class="string">L</span></span><br><span class="line"></span><br><span class="line"><span class="string">在26分、29分、33分执行一次：0</span> <span class="number">26</span><span class="string">,29,33</span> <span class="string">*</span> <span class="string">*</span> <span class="string">*</span> <span class="string">?</span></span><br><span class="line"></span><br><span class="line"><span class="string">每天的0点、13点、18点、21点都执行一次：0</span> <span class="number">0</span> <span class="number">0</span><span class="string">,13,18,21</span> <span class="string">*</span> <span class="string">*</span> <span class="string">?</span></span><br></pre></td></tr></tbody></table></figure>
-
-
-]]></content>
-      <tags>
-        <tag>java</tag>
-        <tag>springboot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>爬图&amp;内容</title>
-    <url>/2021/08/11/%E7%88%AC%E5%9B%BE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<h1 id="Jsoup-爬图-amp-内容"><a href="#Jsoup-爬图-amp-内容" class="headerlink" title="Jsoup 爬图&amp;内容"></a>Jsoup 爬图&amp;内容</h1></blockquote>
-<span id="more"></span>
-
-<blockquote>
-<h2 id="API"><a href="#API" class="headerlink" title="API:"></a>API:</h2></blockquote>
-<ul>
-<li>天气 API <a href="https://www.tianqiapi.com/api?version=v6&amp;appid=26278272&amp;appsecret=fTYv7v5E&amp;city=">https://www.tianqiapi.com/api?version=v6&amp;appid=26278272&amp;appsecret=fTYv7v5E&amp;city=</a></li>
-<li>P站图片 API <a href="https://api.lolicon.app/setu/v1">https://api.lolicon.app/setu/v1</a></li>
-</ul>
-<hr>
-<blockquote>
-<h4>天气API使用方法 </h4> 
-</blockquote>
-<ul>
-<li><a href="https://www.tianqiapi.com/">天气官网</a></li>
-<li>注册&amp;登录 -&gt; 获取个人appid</li>
-<li>所有api数据都可在网站内查看</li>
-<li>附: 爬数据代码</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">String body = res.body(); // 获取整个body</span><br><span class="line">JsonObject j = new JsonParser().parse(body).getAsJsonObject(); // 进行解析</span><br><span class="line">String tem = j.getAsJsonObject().get("tem").getAsString(); // 当前气温</span><br><span class="line">String tem1 = j.getAsJsonObject().get("tem1").getAsString(); // 最高气温</span><br><span class="line">String tem2 = j.getAsJsonObject().get("tem2").getAsString(); // 最低气温</span><br><span class="line">String city = j.getAsJsonObject().get("city").getAsString(); // 城市</span><br><span class="line">String wea = j.getAsJsonObject().get("wea").getAsString(); // 天气</span><br><span class="line">String win = j.getAsJsonObject().get("win").getAsString(); // 风向</span><br><span class="line">String win_speed = j.getAsJsonObject().get("win_speed").getAsString(); // 风速等级</span><br><span class="line">String win_meter = j.getAsJsonObject().get("win_meter").getAsString(); // 风速</span><br><span class="line">String air_tips = j.getAsJsonObject().get("air_tips").getAsString(); // tips</span><br><span class="line">String update_time = j.getAsJsonObject().get("update_time").getAsString(); // 更新时间</span><br><span class="line">String humidity = j.getAsJsonObject().get("humidity").getAsString(); // 湿度</span><br><span class="line">String visibility = j.getAsJsonObject().get("visibility").getAsString(); // 能见度</span><br><span class="line">String air = j.getAsJsonObject().get("air").getAsString(); // 空气质量</span><br><span class="line">String air_pm25 = j.getAsJsonObject().get("air_pm25").getAsString(); // 空气pm2.5</span><br><span class="line">String air_level = j.getAsJsonObject().get("air_level").getAsString(); // 空气质量等级</span><br><span class="line">String pressure = j.getAsJsonObject().get("pressure").getAsString(); // 压力</span><br></pre></td></tr></tbody></table></figure>
-<hr>
-<blockquote>
-<h4>P站API使用方法 </h4> 
-</blockquote>
-<ul>
-<li><a href="https://api.lolicon.app/#/">API官网</a></li>
-<li>所有api数据都可在网站内查看</li>
-<li>附: 爬数据代码</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">String body = res.body(); // 获取整个body</span><br><span class="line">JsonObject j = new JsonParser().parse(body).getAsJsonObject(); // 进行解析</span><br><span class="line">j.get("data").getAsJsonArray().forEach(x -&gt; { // 获取data内所有json数据</span><br><span class="line">String url = x.getAsJsonObject().get("url").getAsString(); // 获取json内图片链接</span><br><span class="line">String author = x.getAsJsonObject().get("author").getAsString(); // 获取图片作者</span><br><span class="line">String title = x.getAsJsonObject().get("title").getAsString(); // 获取图片标题</span><br><span class="line">String pid = x.getAsJsonObject().get("pid").getAsString(); // 获取图片pid</span><br><span class="line"></span><br><span class="line">URL target = new URL(url); // 将获取的url转换链接</span><br><span class="line">URLConnection urlConnection = target.openConnection(); // 使用链接</span><br><span class="line">urlConnection.addRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)"); // 欺骗浏览器</span><br><span class="line">InputStream inputStream = urlConnection.getInputStream(); // 将链接写入</span><br><span class="line">ByteArrayOutputStream Baos = new ByteArrayOutputStream(); // 创建内存存储</span><br><span class="line">int temp = 0; </span><br><span class="line">while ((temp = inputStream.read()) != -1) {</span><br><span class="line">    Baos.write(temp); // 循环写入直到写完 -1停止</span><br><span class="line">}</span><br><span class="line">Baos.close(); // 关闭写入</span><br><span class="line">byte[] bytes = Baos.toByteArray(); // 写入的值转换为Byte字符</span><br><span class="line">try (ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(bytes)) { // 写入内存</span><br><span class="line">    ExternalResource er = ExternalResource.create(byteArrayInputStream); // 创建发送</span><br><span class="line">    ForwardMessageBuilder builder = new ForwardMessageBuilder(e.getSubject()); // 创建QQ转发</span><br><span class="line">    builder.add(e.getBot().getId(), "卢本伟", new PlainText("作品名称: " + title + "\n")</span><br><span class="line">            .plus(e.getSubject().uploadImage(er).plus("\n作者: " + author).plus("\tpid: " + pid)));</span><br><span class="line">    ForwardMessage forward = builder.build();</span><br><span class="line">    e.getSubject().sendMessage(forward); // 发送</span><br></pre></td></tr></tbody></table></figure>
-
-]]></content>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>礼花js 🎇</title>
-    <url>/2021/08/03/%E7%A4%BC%E8%8A%B1js/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
 <h1 id="礼花js"><a href="#礼花js" class="headerlink" title="礼花js"></a>礼花js</h1></blockquote>
-<span id="more"></span>
+<!-- more -->
 
 <blockquote>
 <h3 id="右侧复制"><a href="#右侧复制" class="headerlink" title="右侧复制"></a>右侧复制</h3></blockquote>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">class Circle {</span><br><span class="line">  constructor({ origin, speed, color, angle, context }) {</span><br><span class="line">    this.origin = origin</span><br><span class="line">    this.position = { ...this.origin }</span><br><span class="line">    this.color = color</span><br><span class="line">    this.speed = speed</span><br><span class="line">    this.angle = angle</span><br><span class="line">    this.context = context</span><br><span class="line">    this.renderCount = 0</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  draw() {</span><br><span class="line">    this.context.fillStyle = this.color</span><br><span class="line">    this.context.beginPath()</span><br><span class="line">    this.context.arc(this.position.x, this.position.y, 2, 0, Math.PI * 2)</span><br><span class="line">    this.context.fill()</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  move() {</span><br><span class="line">    this.position.x = (Math.sin(this.angle) * this.speed) + this.position.x</span><br><span class="line">    this.position.y = (Math.cos(this.angle) * this.speed) + this.position.y + (this.renderCount * 0.3)</span><br><span class="line">    this.renderCount++</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">class Boom {</span><br><span class="line">  constructor ({ origin, context, circleCount = 16, area }) {</span><br><span class="line">    this.origin = origin</span><br><span class="line">    this.context = context</span><br><span class="line">    this.circleCount = circleCount</span><br><span class="line">    this.area = area</span><br><span class="line">    this.stop = false</span><br><span class="line">    this.circles = []</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  randomArray(range) {</span><br><span class="line">    const length = range.length</span><br><span class="line">    const randomIndex = Math.floor(length * Math.random())</span><br><span class="line">    return range[randomIndex]</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  randomColor() {</span><br><span class="line">    const range = ['8', '9', 'A', 'B', 'C', 'D', 'E', 'F']</span><br><span class="line">    return '#' + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range)</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  randomRange(start, end) {</span><br><span class="line">    return (end - start) * Math.random() + start</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  init() {</span><br><span class="line">    for(let i = 0; i &lt; this.circleCount; i++) {</span><br><span class="line">      const circle = new Circle({</span><br><span class="line">        context: this.context,</span><br><span class="line">        origin: this.origin,</span><br><span class="line">        color: this.randomColor(),</span><br><span class="line">        angle: this.randomRange(Math.PI - 1, Math.PI + 1),</span><br><span class="line">        speed: this.randomRange(1, 6)</span><br><span class="line">      })</span><br><span class="line">      this.circles.push(circle)</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  move() {</span><br><span class="line">    this.circles.forEach((circle, index) =&gt; {</span><br><span class="line">      if (circle.position.x &gt; this.area.width || circle.position.y &gt; this.area.height) {</span><br><span class="line">        return this.circles.splice(index, 1)</span><br><span class="line">      }</span><br><span class="line">      circle.move()</span><br><span class="line">    })</span><br><span class="line">    if (this.circles.length == 0) {</span><br><span class="line">      this.stop = true</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  draw() {</span><br><span class="line">    this.circles.forEach(circle =&gt; circle.draw())</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">class CursorSpecialEffects {</span><br><span class="line">  constructor() {</span><br><span class="line">    this.computerCanvas = document.createElement('canvas')</span><br><span class="line">    this.renderCanvas = document.createElement('canvas')</span><br><span class="line"></span><br><span class="line">    this.computerContext = this.computerCanvas.getContext('2d')</span><br><span class="line">    this.renderContext = this.renderCanvas.getContext('2d')</span><br><span class="line"></span><br><span class="line">    this.globalWidth = window.innerWidth</span><br><span class="line">    this.globalHeight = window.innerHeight</span><br><span class="line"></span><br><span class="line">    this.booms = []</span><br><span class="line">    this.running = false</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  handleMouseDown(e) {</span><br><span class="line">    const boom = new Boom({</span><br><span class="line">      origin: { x: e.clientX, y: e.clientY },</span><br><span class="line">      context: this.computerContext,</span><br><span class="line">      area: {</span><br><span class="line">        width: this.globalWidth,</span><br><span class="line">        height: this.globalHeight</span><br><span class="line">      }</span><br><span class="line">    })</span><br><span class="line">    boom.init()</span><br><span class="line">    this.booms.push(boom)</span><br><span class="line">    this.running || this.run()</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  handlePageHide() {</span><br><span class="line">    this.booms = []</span><br><span class="line">    this.running = false</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  init() {</span><br><span class="line">    const style = this.renderCanvas.style</span><br><span class="line">    style.position = 'fixed'</span><br><span class="line">    style.top = style.left = 0</span><br><span class="line">    style.zIndex = '999999999999999999999999999999999999999999'</span><br><span class="line">    style.pointerEvents = 'none'</span><br><span class="line"></span><br><span class="line">    style.width = this.renderCanvas.width = this.computerCanvas.width = this.globalWidth</span><br><span class="line">    style.height = this.renderCanvas.height = this.computerCanvas.height = this.globalHeight</span><br><span class="line"></span><br><span class="line">    document.body.append(this.renderCanvas)</span><br><span class="line"></span><br><span class="line">    window.addEventListener('mousedown', this.handleMouseDown.bind(this))</span><br><span class="line">    window.addEventListener('pagehide', this.handlePageHide.bind(this))</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  run() {</span><br><span class="line">    this.running = true</span><br><span class="line">    if (this.booms.length == 0) {</span><br><span class="line">      return this.running = false</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    requestAnimationFrame(this.run.bind(this))</span><br><span class="line"></span><br><span class="line">    this.computerContext.clearRect(0, 0, this.globalWidth, this.globalHeight)</span><br><span class="line">    this.renderContext.clearRect(0, 0, this.globalWidth, this.globalHeight)</span><br><span class="line"></span><br><span class="line">    this.booms.forEach((boom, index) =&gt; {</span><br><span class="line">      if (boom.stop) {</span><br><span class="line">        return this.booms.splice(index, 1)</span><br><span class="line">      }</span><br><span class="line">      boom.move()</span><br><span class="line">      boom.draw()</span><br><span class="line">    })</span><br><span class="line">    this.renderContext.drawImage(this.computerCanvas, 0, 0, this.globalWidth, this.globalHeight)</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">const cursorSpecialEffects = new CursorSpecialEffects()</span><br><span class="line">cursorSpecialEffects.init()</span><br></pre></td></tr></tbody></table></figure>]]></content>
       <categories>
-        <category>主题</category>
+        <category>主题模板</category>
       </categories>
       <tags>
         <tag>NexT</tag>
-        <tag>主题</tag>
+        <tag>主题模板</tag>
         <tag>美化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS中Tab切换</title>
+    <url>/2023/02/03/tab%E5%88%87%E6%8D%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="JS中Tab切换"><a href="#JS中Tab切换" class="headerlink" title="JS中Tab切换"></a>JS中Tab切换</h1><p><small>需要少许前端基础</small></p>
+</blockquote>
+<span id="more"></span>
+
+<h4 id="📕这是一篇教学，教大家如果使用js实现tab切换"><a href="#📕这是一篇教学，教大家如果使用js实现tab切换" class="headerlink" title="📕这是一篇教学，教大家如果使用js实现tab切换"></a>📕这是一篇教学，教大家如果使用js实现tab切换</h4><p><strong>效果如下⬇</strong><br><img src="/images/jx-1.png" alt="1"><br><img src="/images/jx-2.png" alt="2"><br><img src="/images/jx-3.png" alt="3"></p>
+<h3 id="可以在网页中实现无需跳转或增加路由而切换页面"><a href="#可以在网页中实现无需跳转或增加路由而切换页面" class="headerlink" title="可以在网页中实现无需跳转或增加路由而切换页面"></a>可以在网页中实现无需跳转或增加路由而切换页面</h3><hr>
+<p><strong>html5代码如下：</strong></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div class="container"&gt;</span><br><span class="line">        &lt;div class="up"&gt;</span><br><span class="line">            &lt;ul&gt;</span><br><span class="line">                &lt;li class="act"&gt;&lt;a href="#"&gt;百度&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;新浪&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;淘宝&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;京东&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;网易&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">            &lt;/ul&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class="down"&gt;</span><br><span class="line">            &lt;div class="down-act"&gt;百度内容&lt;/div&gt;</span><br><span class="line">            &lt;div&gt;新浪内容&lt;/div&gt;</span><br><span class="line">            &lt;div&gt;淘宝内容&lt;/div&gt;</span><br><span class="line">            &lt;div&gt;京东内容&lt;/div&gt;</span><br><span class="line">            &lt;div&gt;网易内容&lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="★在上述代码的下面-amp-body的里面，引入js"><a href="#★在上述代码的下面-amp-body的里面，引入js" class="headerlink" title="★在上述代码的下面 &amp; body的里面，引入js"></a>★在上述代码的下面 &amp; body的里面，引入js</h2><p><em><strong>引入</strong></em></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;script src="[你自己创建的js文件名].js"&gt;&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<h2 id="css代码如下⬇"><a href="#css代码如下⬇" class="headerlink" title="css代码如下⬇"></a>css代码如下⬇</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">*{</span><br><span class="line">margin: 0;</span><br><span class="line">padding: 0;</span><br><span class="line">box-sizing: border-box;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">body{</span><br><span class="line">    background-color: gray;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.container{</span><br><span class="line">    background-color: white;</span><br><span class="line">    width: 500px;</span><br><span class="line">    height: 300px;</span><br><span class="line">    margin: 100px auto;</span><br><span class="line">}</span><br><span class="line">.up{</span><br><span class="line">    height: 50px;</span><br><span class="line">    width: 100%;</span><br><span class="line">}</span><br><span class="line">.up ul li{</span><br><span class="line">    float: left;</span><br><span class="line">    width: 100px;</span><br><span class="line">    line-height: 60px;</span><br><span class="line">}</span><br><span class="line">.up ul li a{</span><br><span class="line">    font-size: 21px;</span><br><span class="line">}</span><br><span class="line">.act{</span><br><span class="line">    border-bottom: 2px solid black;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.down{</span><br><span class="line">    height: 200px;</span><br><span class="line">    width: 100%;</span><br><span class="line">    position: relative;</span><br><span class="line">}</span><br><span class="line">.down div{</span><br><span class="line">    position: absolute;</span><br><span class="line">    line-height: 110px;</span><br><span class="line">    width: 100%;</span><br><span class="line">    height: 100%;</span><br><span class="line">    display: none;</span><br><span class="line">}</span><br><span class="line">.down div.down-act{</span><br><span class="line">    display: block;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="★这里需要注意的是，你需要记得在head里引入css样式"><a href="#★这里需要注意的是，你需要记得在head里引入css样式" class="headerlink" title="★这里需要注意的是，你需要记得在head里引入css样式"></a>★这里需要注意的是，你需要记得在head里引入css样式</h2><hr>
+<p>*** js代码如下⬇ ***</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">var lis = document.querySelector(".up").querySelectorAll("li");</span><br><span class="line"></span><br><span class="line">var divs = document.querySelector(".down").querySelectorAll("div");</span><br><span class="line"></span><br><span class="line">for (var  i= 0; i &lt; lis.length; i++) {(</span><br><span class="line">    function(i){</span><br><span class="line"></span><br><span class="line">    lis[i].addEventListener("mouseenter",function(){</span><br><span class="line"></span><br><span class="line">        for (var k = 0; k &lt; lis.length; k++) {</span><br><span class="line">            lis[k].removeAttribute("class")</span><br><span class="line">            divs[k].removeAttribute("class")</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">       lis[i].setAttribute("class","act")</span><br><span class="line">       divs[i].setAttribute("class","down-act")</span><br><span class="line"></span><br><span class="line">      })</span><br><span class="line"></span><br><span class="line">}(i)</span><br><span class="line">)}</span><br></pre></td></tr></tbody></table></figure>
+<h4 id="切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全"><a href="#切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全" class="headerlink" title="切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全"></a>切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全</h4><hr>
+<h4 id="快去vs或者idea里实操吧✔"><a href="#快去vs或者idea里实操吧✔" class="headerlink" title="快去vs或者idea里实操吧✔"></a>快去vs或者idea里实操吧✔</h4>]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>教学</tag>
+        <tag>tab切换</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS中回到顶部</title>
+    <url>/2023/02/03/%E5%9B%9E%E5%88%B0%E9%A1%B6%E9%83%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="JS中回到顶部⬆"><a href="#JS中回到顶部⬆" class="headerlink" title="JS中回到顶部⬆"></a>JS中回到顶部⬆</h1><p><small>需要少许前端基础</small></p>
+</blockquote>
+<span id="more"></span>
+
+<h4 id="📕这是一篇教学，教大家如果使用js实现回到顶部"><a href="#📕这是一篇教学，教大家如果使用js实现回到顶部" class="headerlink" title="📕这是一篇教学，教大家如果使用js实现回到顶部"></a>📕这是一篇教学，教大家如果使用js实现回到顶部</h4><p><strong>效果如下⬇</strong><br><img src="/images/hddb-1.png" alt="1"><br><img src="/images/hddb-2.png" alt="2"></p>
+<h3 id="可以在网页中实现点击按钮回到顶部"><a href="#可以在网页中实现点击按钮回到顶部" class="headerlink" title="可以在网页中实现点击按钮回到顶部"></a>可以在网页中实现点击按钮回到顶部</h3><hr>
+<p><strong>html5代码如下：</strong></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;内容1&lt;/div&gt;</span><br><span class="line">    &lt;div&gt;内容2&lt;/div&gt;</span><br><span class="line">    &lt;div&gt;内容3&lt;/div&gt;</span><br><span class="line">    &lt;div&gt;内容4&lt;/div&gt;</span><br><span class="line">    &lt;div&gt;内容5&lt;/div&gt;</span><br><span class="line">    &lt;div&gt;内容6&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- /让a标签失去href属性效果 --&gt;</span><br><span class="line">    &lt;a href="javaScript:void(0)" id="btn"&gt;</span><br><span class="line">        回到</span><br><span class="line">        &lt;br&gt;</span><br><span class="line">        顶部</span><br><span class="line">    &lt;/a&gt;</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="★在上述代码的下面-amp-body的里面，引入js"><a href="#★在上述代码的下面-amp-body的里面，引入js" class="headerlink" title="★在上述代码的下面 &amp; body的里面，引入js"></a>★在上述代码的下面 &amp; body的里面，引入js</h2><p><em><strong>引入</strong></em></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;script src="[你自己创建的js文件名].js"&gt;&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<h2 id="css代码如下⬇"><a href="#css代码如下⬇" class="headerlink" title="css代码如下⬇"></a>css代码如下⬇</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">*{</span><br><span class="line">margin: 0;</span><br><span class="line">padding: 0;</span><br><span class="line">box-sizing: border-box;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">div{</span><br><span class="line">    height: 500px;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">#btn{</span><br><span class="line">    width: 70px;</span><br><span class="line">    height: 70px;</span><br><span class="line">    position: fixed;</span><br><span class="line">    right: 50px;</span><br><span class="line">    bottom: 50px;</span><br><span class="line">    background: #333;</span><br><span class="line">    text-decoration: none;</span><br><span class="line">    color: #fff;</span><br><span class="line">    text-align: center;</span><br><span class="line">    padding: 10px;</span><br><span class="line">    display: none;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="★这里需要注意的是，你需要记得在head里引入css样式"><a href="#★这里需要注意的是，你需要记得在head里引入css样式" class="headerlink" title="★这里需要注意的是，你需要记得在head里引入css样式"></a>★这里需要注意的是，你需要记得在head里引入css样式</h2><hr>
+<p>*** js代码如下⬇ ***</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">var btn = document.getElementById("btn")</span><br><span class="line"></span><br><span class="line">//超过一个屏幕的高度滚动时就让他显示</span><br><span class="line">var clientheight = document.documentElement.clientHeight</span><br><span class="line"></span><br><span class="line">window.onscroll = function(){</span><br><span class="line">    //获取滚动高度</span><br><span class="line">    var scrollheight = document.documentElement.scrollTop</span><br><span class="line">    if(scrollheight &gt; clientheight){</span><br><span class="line">        btn.style.display = "block"</span><br><span class="line">    }else{</span><br><span class="line">        btn.style.display = "none"</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">btn.addEventListener("click",() =&gt; {</span><br><span class="line">    document.documentElement.scrollTop = 0</span><br><span class="line">})</span><br></pre></td></tr></tbody></table></figure>
+<h4 id="切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全"><a href="#切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全" class="headerlink" title="切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全"></a>切记！去js官网寻找下载js的不同方式，最后记得插件里下载js的补全</h4><hr>
+<h4 id="快去vs或者idea里实操吧✔"><a href="#快去vs或者idea里实操吧✔" class="headerlink" title="快去vs或者idea里实操吧✔"></a>快去vs或者idea里实操吧✔</h4>]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>教学</tag>
+        <tag>回到顶部</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS中放大镜</title>
+    <url>/2023/02/03/%E6%94%BE%E5%A4%A7%E9%95%9C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="JS中放大镜"><a href="#JS中放大镜" class="headerlink" title="JS中放大镜"></a>JS中放大镜</h1><p><small>需要少许前端基础</small></p>
+</blockquote>
+<span id="more"></span>
+
+<h4 id="📕这是一篇教学，教大家如果使用js实现放大镜"><a href="#📕这是一篇教学，教大家如果使用js实现放大镜" class="headerlink" title="📕这是一篇教学，教大家如果使用js实现放大镜"></a>📕这是一篇教学，教大家如果使用js实现放大镜</h4><p><em><strong>话不多说，先来看效果图</strong></em><br><img src="/images/fdj-1.png" alt="1"><br><img src="/images/fdj-2.png" alt="2"></p>
+<hr>
+<h3 id="h5代码如下："><a href="#h5代码如下：" class="headerlink" title="h5代码如下："></a>h5代码如下：</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div class="small" id="small"&gt;</span><br><span class="line">        &lt;img src="./img/xiao.jpg" alt=""&gt;</span><br><span class="line">        &lt;div class="zoom" id="zoom"&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class="big" id="big"&gt;</span><br><span class="line">    &lt;/div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="★在上述代码的下面-amp-body的里面，引入js"><a href="#★在上述代码的下面-amp-body的里面，引入js" class="headerlink" title="★在上述代码的下面 &amp; body的里面，引入js"></a>★在上述代码的下面 &amp; body的里面，引入js</h2><p><em><strong>引入</strong></em></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;script src="[你自己创建的js文件名].js"&gt;&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="值得注意的是，做出这样的样式需要等比缩放的两张图片，我以xiao和big为例"><a href="#值得注意的是，做出这样的样式需要等比缩放的两张图片，我以xiao和big为例" class="headerlink" title="值得注意的是，做出这样的样式需要等比缩放的两张图片，我以xiao和big为例"></a><em><strong>值得注意的是，做出这样的样式需要等比缩放的两张图片，我以xiao和big为例</strong></em></h2><h3 id="css代码如下："><a href="#css代码如下：" class="headerlink" title="css代码如下："></a>css代码如下：</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">*{</span><br><span class="line">margin: 0;</span><br><span class="line">padding: 0;</span><br><span class="line">box-sizing: border-box;</span><br><span class="line">}</span><br><span class="line">.small{</span><br><span class="line">    width: 450px;</span><br><span class="line">    height: 450px;</span><br><span class="line">    border: 1px solid #999;</span><br><span class="line">    position: absolute;</span><br><span class="line">    top: 100px;</span><br><span class="line">    left: 100px;</span><br><span class="line">}</span><br><span class="line">.zoom{</span><br><span class="line">    width: 300px;</span><br><span class="line">    height: 300px;</span><br><span class="line">    background-color: rgb(171, 171, 171);</span><br><span class="line">    opacity: 0.5;</span><br><span class="line">    position: absolute;</span><br><span class="line">    left: 0;</span><br><span class="line">    top: 0;</span><br><span class="line">    display: none;</span><br><span class="line">}</span><br><span class="line">.big{</span><br><span class="line">    width: 550px;</span><br><span class="line">    height: 550px;</span><br><span class="line">    background: url(./img/da.jpg);</span><br><span class="line">    border: 1px solid #999;</span><br><span class="line">    position: absolute;</span><br><span class="line">    top: 100px;</span><br><span class="line">    left: 552px;</span><br><span class="line">    display: none;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<h3 id="js代码如下："><a href="#js代码如下：" class="headerlink" title="js代码如下："></a>js代码如下：</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">//获取页面元素</span><br><span class="line">var small = document.getElementById("small")</span><br><span class="line">var zoom = document.getElementById("zoom")</span><br><span class="line">var big = document.getElementById("big")</span><br><span class="line"></span><br><span class="line">small.addEventListener("mouseover",function(){</span><br><span class="line">    zoom.style.display = "block"</span><br><span class="line">    big.style.display = "block"</span><br><span class="line">})</span><br><span class="line">small.addEventListener("mouseout",function(){</span><br><span class="line">    zoom.style.display = "none"</span><br><span class="line">    big.style.display = "none"</span><br><span class="line">})</span><br><span class="line"></span><br><span class="line">//放大比例</span><br><span class="line">var rate = (800 / 450);</span><br><span class="line"></span><br><span class="line">//鼠标滑动事件</span><br><span class="line">small.addEventListener("mousemove",function(e){</span><br><span class="line">    //获得鼠标如何移动方式：根据鼠标方向移动：移动的像素是多少</span><br><span class="line">    var zoomX = e.clientX - small.offsetLeft - 150;</span><br><span class="line">    var zoomY = e.clientY - small.offsetTop - 150;</span><br><span class="line"></span><br><span class="line">    //zoom边界的处理</span><br><span class="line">    if(zoomX &lt; 0 ){</span><br><span class="line">        zoomX = 0;</span><br><span class="line">    }</span><br><span class="line">    if(zoomX &gt;=150){</span><br><span class="line">        zoomX = 150;</span><br><span class="line">    }</span><br><span class="line">    if(zoomY &lt; 0 ){</span><br><span class="line">        zoomY = 0;</span><br><span class="line">    }</span><br><span class="line">    if(zoomY &gt;=150){</span><br><span class="line">        zoomY = 150;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    zoom.style.left = zoomX + "px";</span><br><span class="line">    zoom.style.top = zoomY + 'px';</span><br><span class="line"></span><br><span class="line">    //同步移动big</span><br><span class="line">    big.style.backgroundPositionX = (-zoomX  * rate) + "px";</span><br><span class="line">    big.style.backgroundPositionY = (-zoomY * rate) + "px";</span><br><span class="line"></span><br><span class="line">    console.log(big.style.backgroundPositionX,big.style.backgroundPositionY);</span><br><span class="line"></span><br><span class="line">})</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<h6 id="本次教程略微有稍许难度，大家可以多加思考代码内容"><a href="#本次教程略微有稍许难度，大家可以多加思考代码内容" class="headerlink" title="本次教程略微有稍许难度，大家可以多加思考代码内容"></a>本次教程略微有稍许难度，大家可以多加思考代码内容</h6><h4 id="快去vs或者idea里实操吧✔"><a href="#快去vs或者idea里实操吧✔" class="headerlink" title="快去vs或者idea里实操吧✔"></a>快去vs或者idea里实操吧✔</h4>]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>教学</tag>
+        <tag>放大镜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新年快乐🎉</title>
+    <url>/2023/02/03/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="祝大家兔年大吉💝"><a href="#祝大家兔年大吉💝" class="headerlink" title="祝大家兔年大吉💝"></a>祝大家兔年大吉💝</h1><p><small>新的一年约单价目表</small></p>
+</blockquote>
+<span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th align="center">价格</th>
+<th align="center">交稿时间（最晚）</th>
+<th align="center">类型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>网页设计</td>
+<td align="center">80起</td>
+<td align="center">2h</td>
+<td align="center">ps &amp; ai &amp; figma</td>
+</tr>
+<tr>
+<td>单页面</td>
+<td align="center">200起</td>
+<td align="center">5h</td>
+<td align="center">前端web</td>
+</tr>
+<tr>
+<td>含跳转（两个及以上）</td>
+<td align="center">500起</td>
+<td align="center">12h</td>
+<td align="center">前端web</td>
+</tr>
+<tr>
+<td>前端全揽</td>
+<td align="center">1000起</td>
+<td align="center">72h</td>
+<td align="center">前端 &amp; node &amp; 交互</td>
+</tr>
+<tr>
+<td>全栈</td>
+<td align="center">未定价</td>
+<td align="center">1wk</td>
+<td align="center">全栈</td>
+</tr>
+</tbody></table>
+<hr>
+<p>如有需要可联系</p>
+<h6 id="v：blessyours1"><a href="#v：blessyours1" class="headerlink" title="v：blessyours1"></a>v：blessyours1</h6>]]></content>
+      <categories>
+        <category>置顶</category>
+      </categories>
+      <tags>
+        <tag>置顶</tag>
+        <tag>接单</tag>
+        <tag>个人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Js轮播图</title>
+    <url>/2023/02/03/%E8%BD%AE%E6%92%AD%E5%9B%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<h1 id="Js轮播图-可切换"><a href="#Js轮播图-可切换" class="headerlink" title="Js轮播图(可切换)"></a>Js轮播图(可切换)</h1><p><small>需要一定前端基础</small></p>
+</blockquote>
+<span id="more"></span>
+
+<h4 id="📕这是一篇教学，教大家如果使用js实现轮播图"><a href="#📕这是一篇教学，教大家如果使用js实现轮播图" class="headerlink" title="📕这是一篇教学，教大家如果使用js实现轮播图"></a>📕这是一篇教学，教大家如果使用js实现轮播图</h4><p><em><strong>先来看效果图</strong></em><br><img src="/images/lbt-1.png" alt="1"><br><img src="/images/lbt-2.png" alt="2"></p>
+<h5 id="html5代码如下⬇"><a href="#html5代码如下⬇" class="headerlink" title="html5代码如下⬇"></a>html5代码如下⬇</h5><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div class="box"&gt;</span><br><span class="line">        &lt;div class="imglist" id="imglist"&gt;</span><br><span class="line">            &lt;ul&gt;</span><br><span class="line">        &lt;li class="current"&gt;&lt;a href="#"&gt;&lt;img src="./img/[图片名].[格式]" alt=""&gt;&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;&lt;img src="../img/[图片名].[格式]" alt=""&gt;&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;&lt;img src="../img/[图片名].[格式]" alt=""&gt;&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;&lt;img src="../img/[图片名].[格式]" alt=""&gt;&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;&lt;img src="../img/[图片名].[格式]" alt=""&gt;&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href="#"&gt;&lt;img src="../img/[图片名].[格式]" alt=""&gt;&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">            &lt;/ul&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class="btn"&gt;</span><br><span class="line">            &lt;span class="leftbtn" id="leftbtn"&gt;&lt;/span&gt;</span><br><span class="line">            &lt;span class="rightbtn" id="rightbtn"&gt;&lt;/span&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class="yuan" id="yuan"&gt;</span><br><span class="line">            &lt;ul&gt;</span><br><span class="line">                &lt;li class="curr"&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;/li&gt;</span><br><span class="line">                &lt;li&gt;&lt;/li&gt;</span><br><span class="line">            &lt;/ul&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="★在上述代码的下面-amp-body的里面，引入js"><a href="#★在上述代码的下面-amp-body的里面，引入js" class="headerlink" title="★在上述代码的下面 &amp; body的里面，引入js"></a>★在上述代码的下面 &amp; body的里面，引入js</h2><p><em><strong>引入</strong></em></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;script src="[你自己创建的js文件名].js"&gt;&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<h5 id="css代码如下⬇"><a href="#css代码如下⬇" class="headerlink" title="css代码如下⬇"></a>css代码如下⬇</h5><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">*{</span><br><span class="line">margin: 0;</span><br><span class="line">padding: 0;</span><br><span class="line">box-sizing: border-box;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.box{</span><br><span class="line">    width: 640px;</span><br><span class="line">    height: 480px;</span><br><span class="line">    border: 2px solid black;</span><br><span class="line">    margin: 100px auto;</span><br><span class="line">    position: relative;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.imglist ul li{</span><br><span class="line">    width: 640px;</span><br><span class="line">    height: 480px;</span><br><span class="line">    position: absolute;</span><br><span class="line">    top: 0;</span><br><span class="line">    left: 0;</span><br><span class="line">    display: none;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.imglist ul li.current{</span><br><span class="line">    display: block;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">img{</span><br><span class="line">    width: 640px;</span><br><span class="line">    height: 480px;</span><br><span class="line">}</span><br><span class="line">img:hover{</span><br><span class="line">    cursor: default;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.btn span{</span><br><span class="line">    width: 55px;</span><br><span class="line">    height: 55px;</span><br><span class="line">    position: absolute;</span><br><span class="line">    top: 50%;</span><br><span class="line">    margin-top: -27.5px;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.leftbtn{</span><br><span class="line">    left: 10px;</span><br><span class="line">    background: url(./img/[左图标图片名].[格式]);</span><br><span class="line">}</span><br><span class="line">.leftbtn:hover{</span><br><span class="line">    cursor: pointer;</span><br><span class="line">}</span><br><span class="line">.rightbtn{</span><br><span class="line">    right: 10px;</span><br><span class="line">    background: url(./img/[右图标图片名].[格式]);</span><br><span class="line">}</span><br><span class="line">.rightbtn:hover{</span><br><span class="line">    cursor: pointer;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.yuan{</span><br><span class="line">    position: absolute;</span><br><span class="line">    bottom: 10px;</span><br><span class="line">    right: 10px;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.yuan ul li{</span><br><span class="line">    width: 25px;</span><br><span class="line">    height: 25px;</span><br><span class="line">    background-color: rgba(0, 0, 0, 0.5);</span><br><span class="line">    float: left;</span><br><span class="line">    border-radius: 50%;</span><br><span class="line">    margin-right: 5px;</span><br><span class="line">}</span><br><span class="line">.yuan ul li.curr{</span><br><span class="line">    background-color: white;</span><br><span class="line">}</span><br><span class="line">.yuan ul li.curr:hover{</span><br><span class="line">    cursor: pointer;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<h5 id="js代码如下⬇"><a href="#js代码如下⬇" class="headerlink" title="js代码如下⬇"></a>js代码如下⬇</h5><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">//获取元素</span><br><span class="line">var imglist = document.getElementById("imglist").querySelectorAll("li")</span><br><span class="line">var leftbtn = document.getElementById("leftbtn")</span><br><span class="line">var rightbtn = document.getElementById("rightbtn")</span><br><span class="line">var yuanlist = document.getElementById("yuan").querySelectorAll("li")</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//idx控制图片显示</span><br><span class="line">var idx = 0</span><br><span class="line">//添加事件</span><br><span class="line">leftbtn.addEventListener("click",function(){</span><br><span class="line">    idx--</span><br><span class="line">    change()</span><br><span class="line">})</span><br><span class="line">rightbtn.addEventListener("click",function(){</span><br><span class="line">    idx++</span><br><span class="line">    change()</span><br><span class="line">})</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//控制页面图片显示与隐藏</span><br><span class="line">function change(){</span><br><span class="line"></span><br><span class="line">    //id边界处理</span><br><span class="line">    if (idx &gt; imglist.length-1) {</span><br><span class="line">        idx = 0</span><br><span class="line">    }</span><br><span class="line">    if (idx &lt; 0) {</span><br><span class="line">        idx = imglist.length-1</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    //先移除所有curr，然后显示指定图片</span><br><span class="line">    for (var i = 0; i &lt; imglist.length; i++) {</span><br><span class="line">      imglist[i].removeAttribute("class")</span><br><span class="line">    }</span><br><span class="line">    imglist[idx].setAttribute("class","current")</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//设置指示器高亮</span><br><span class="line">for (var i = 0; i &lt; yuanlist.length; i++) {</span><br><span class="line">    yuanlist[i].removeAttribute("class")</span><br><span class="line">  }</span><br><span class="line">yuanlist[idx].setAttribute("class","curr")</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//点击指示器切换图片</span><br><span class="line">for (var i = 0; i &lt; yuanlist.length; i++) {</span><br><span class="line">  (function(i){</span><br><span class="line">    yuanlist[i].onmouseenter = function(){</span><br><span class="line">            idx = i</span><br><span class="line">            change()</span><br><span class="line">        }</span><br><span class="line">    })(i)</span><br><span class="line">  }</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+<h4 id="快去vs或者idea里实操吧✔"><a href="#快去vs或者idea里实操吧✔" class="headerlink" title="快去vs或者idea里实操吧✔"></a>快去vs或者idea里实操吧✔</h4>]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>教学</tag>
+        <tag>Javascript</tag>
+        <tag>轮播图</tag>
       </tags>
   </entry>
 </search>

@@ -1202,6 +1202,77 @@ pre .javascript .function {
 .book-mark-link-fixed {
   top: -2px;
 }
+.github-corner :hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+.github-corner svg {
+  border: 0;
+  color: #fff;
+  fill: #222;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+@media (max-width: 991px) {
+  .github-corner {
+    display: none;
+  }
+  .github-corner svg {
+    color: #222;
+    fill: #fff;
+  }
+  .github-corner .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+@-moz-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@-o-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
 .sidebar {
   background: #222;
   bottom: 0;
@@ -1276,7 +1347,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2659ff;
+  background: #182dfc;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1699,7 +1770,7 @@ pre .javascript .function {
   }
 }
 .reading-progress-bar {
-  background: #37c6c0;
+  background: #ffc0cb;
   display: block;
   height: 3px;
   left: 0;
@@ -2770,21 +2841,6 @@ ul.breadcrumb li + li:last-child {
 }
 .links-of-blogroll-item {
   padding: 0;
-  display: inline-block;
-  margin: 5px 0 0;
-  width: unset;
-}
-.links-of-blogroll-item a,
-.links-of-blogroll-item span.exturl {
-  box-sizing: border-box;
-  display: inline-block;
-  margin-bottom: 0;
-  margin-right: 0;
-  max-width: 216px;
-  overflow: hidden;
-  padding: 0 5px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .content-wrap {
   background: initial;
@@ -2909,6 +2965,37 @@ ul.breadcrumb li + li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 100%;
+}
+.content-wrap {
+  background: rgba(255,255,255,0.55) none repeat scroll !important;
+}
+.sidebar-inner {
+  background: rgba(255,255,255,0.8) none repeat scroll !important;
+}
+.header-inner {
+  background: rgba(255,255,255,0.7);
+}
+.popup {
+  opacity: 0.8;
+}
+.post-block {
+  background: rgba(255,255,255,0.8) none repeat scroll !important;
+}
+.comments {
+  background: rgba(255,255,255,0.8) none repeat scroll !important;
+}
+.post {
+  margin-top: 60px;
+  padding: 20px;
+  margin-bottom: 60px;
+  -webkit-box-shadow: 0 0 5px #788072;
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .post-button .btn {
   color: #555 !important;
